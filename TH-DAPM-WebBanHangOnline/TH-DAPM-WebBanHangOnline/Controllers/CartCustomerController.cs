@@ -14,7 +14,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.carts = dbHelper.GetMyCartById(HttpContext.Session.GetInt32("CustomerId"));
+            ViewBag.carts = dbHelper.GetMyCartByCustomerId(HttpContext.Session.GetInt32("CustomerId"));
             return View();
         }
     }

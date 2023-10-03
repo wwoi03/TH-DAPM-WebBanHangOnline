@@ -61,6 +61,7 @@
 									<label for="password">Xác nhận mật khẩu</label>
 									<input type="password" class="form-control" placeholder="Nhập lại mật khẩu" id="password" asp-for="VerifyPassword">
 									<span asp-validation-for="@Model.VerifyPassword" class="text-danger"></span>
+									<span class="text-danger">@ViewBag.messageError</span>
 								</div>
 
 								<div class="d-sm-flex mb-5 align-items-center">
