@@ -53,6 +53,7 @@
 									<label for="password">Mật khẩu</label>
 									<input type="password" class="form-control" placeholder="Mật khẩu của bạn" id="password" asp-for="Password"> 
 									<span asp-validation-for="@Model.Password" class="text-danger"></span>
+									<span class="text-danger">@ViewBag.messageError</span>
 								</div>
 
 								<div class="d-sm-flex mb-5 align-items-center">

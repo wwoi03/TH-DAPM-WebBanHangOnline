@@ -24,13 +24,13 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            if (HttpContext.Session.GetString("Username") == null)
+            if (HttpContext.Session.GetString("Email") == null)
             {
                 return View();
             }
             else
             {
-                return RedirectToAction("Index", "HomeCustomer");
+                return RedirectToAction("HomePage", "HomeCustomer");
             }
         }
 
@@ -40,7 +40,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             ModelState.Remove("Name");
             ModelState.Remove("VerifyPassword");
 
-            if (HttpContext.Session.GetString("Email") == null)
+            if (ModelState.IsValid)
             {
                 Customer customer = dbHelper.GetCustomerByEmail(customerVM.Email);
 
@@ -81,13 +81,15 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
             if (ModelState.IsValid)
             {
-                // kiểm tra xác nhận mật khẩu
-                if (customerVM.Password.Equals(customerVM.VerifyPassword)) {
-                    Customer customerExists = dbHelper.GetCustomerByEmail(customerVM.Email);
+                Customer customerExists = dbHelper.GetCustomerByEmail(customerVM.Email);
 
-                    // kiểm tra tài khoản đã tồn tài
-                    if (customerExists == null) // chưa tồn tại
+                // kiểm tra tài khoản đã tồn tài
+                if (customerExists == null) // chưa tồn tại
+                {
+                    // kiểm tra xác nhận mật khẩu
+                    if (customerVM.Password.Equals(customerVM.VerifyPassword))
                     {
+
                         Customer customer = new Customer()
                         {
                             Email = customerVM.Email,
@@ -98,13 +100,15 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                         dbHelper.CreateCustomer(customer);
 
                         return RedirectToAction("Login");
-                    } else // đã tồn tại
-                    {
-                        ViewBag.messageError = "Tài khoản đã tồn tại";
                     }
-                } else 
+                    else
+                    {
+                        ViewBag.messageError = "Mật khẩu xác nhận không khớp";
+                    }
+                }
+                else // đã tồn tại
                 {
-                    ViewBag.messageError = "Mật khẩu xác nhận không khớp";
+                    ViewBag.messageError = "Tài khoản đã tồn tại";
                 }
             }
 
