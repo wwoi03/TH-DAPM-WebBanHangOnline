@@ -22,7 +22,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         public IActionResult ProductDetails(int? productId)
         {
             ViewBag.PageHeader = "Chi tiết sản phẩm";
-            ViewBag.productDetails = dbHelper.GetProductDetails(1);
+            ViewBag.productDetails = dbHelper.GetProductDetails(productId);
             return View();
         }
 
