@@ -21,7 +21,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // Chi tiết sản phẩm
         public IActionResult ProductDetails(int? productId)
         {
-            ViewBag.productDetails = dbHelper.GetProductDetails(productId);
+            ViewBag.PageHeader = "Chi tiết sản phẩm";
+            ViewBag.productDetails = dbHelper.GetProductDetails(1);
             return View();
         }
 
