@@ -1,7 +1,19 @@
+﻿using Microsoft.EntityFrameworkCore;
+using TH_DAPM_WebBanHangOnline.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpContextAccessor();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Kết nối database
+builder.Services.AddDbContext<DatabaseContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DbContext")));
+
+// Kích hoạt Session
+builder.Services.AddSession();
+
 
 var app = builder.Build();
 
@@ -13,6 +25,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Sử dụng session
+app.UseSession();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -22,6 +37,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=HomeCustomer}/{action=HomePage}/{id?}");
 
 app.Run();
