@@ -30,7 +30,7 @@ namespace TH_DAPM_WebBanHangOnline.Models
         // lấy danh sách giỏ hàng theo mã khách hàng
         public List<Cart> GetMyCartByCustomerId(int? customerId)
         {
-            List<Cart> carts = dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).ToList();
+            List<Cart> carts = dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).Where(c => c.CustomerId == customerId).ToList();
             return carts;
         }
 
