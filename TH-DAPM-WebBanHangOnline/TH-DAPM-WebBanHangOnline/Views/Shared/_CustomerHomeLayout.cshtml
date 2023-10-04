@@ -42,15 +42,11 @@
                 </a>
                 <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                        <a href="" class="nav-item nav-link">Shirts</a>
-                        <a href="" class="nav-item nav-link">Jeans</a>
-                        <a href="" class="nav-item nav-link">Swimwear</a>
-                        <a href="" class="nav-item nav-link">Sleepwear</a>
-                        <a href="" class="nav-item nav-link">Sportswear</a>
-                        <a href="" class="nav-item nav-link">Jumpsuits</a>
-                        <a href="" class="nav-item nav-link">Blazers</a>
-                        <a href="" class="nav-item nav-link">Jackets</a>
-                        <a href="" class="nav-item nav-link">Shoes</a>
+                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="4">Quần jean</a>
+                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="1">Áo sơ mi</a>
+                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="2">Áo khoác</a>
+                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="3">Áo thun</a>
+                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="5">Váy đầm</a>
                     </div>
                 </nav>
             </div>
@@ -64,7 +60,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a asp-controller="HomeCustomer" asp-action="Index" class="nav-item nav-link active">Trang chủ</a>
+                            <a asp-controller="HomeCustomer" asp-action="HomePage" class="nav-item nav-link active">Trang chủ</a>
                             <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
                         </div>
 
