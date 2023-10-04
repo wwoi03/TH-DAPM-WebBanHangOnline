@@ -33,6 +33,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                 };
                 productsViewModel.Add(productViewModel);
             }
+
+            ViewBag.categories = dbHelper.GetCategories();
             ViewData["listpro"] = productsViewModel;
             return View();
         }
@@ -40,6 +42,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // Chi tiết sản phẩm
         public IActionResult ProductDetails(int? productId)
         {
+            ViewBag.categories = dbHelper.GetCategories();
             ViewBag.PageHeader = "Chi tiết sản phẩm";
             ViewBag.productDetails = dbHelper.GetProductDetails(productId);
             return View();
@@ -64,6 +67,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                 };
                 productsViewModel.Add(productViewModel);
             }
+
+            ViewBag.categories = dbHelper.GetCategories();
             ViewData["listprotype"] = productsViewModel;
             return View();
         }

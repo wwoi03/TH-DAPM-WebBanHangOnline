@@ -40,7 +40,8 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             return dbContext.Products.Include(p => p.Producer).Include(p => p.Category).FirstOrDefault(p => p.ProductId == productId);
         }
-        //-----------------------------------------------------------------SẢN PHẨM TRANG BÁN-----------------------------------------------------------
+
+        /* -------------------------- SẢN PHẨM TRANG BÁN -------------------------- */
         //lấy danh sách sản phẩm
         public List<Product> getProducts()
         {
@@ -68,9 +69,16 @@ namespace TH_DAPM_WebBanHangOnline.Models
         //lấy sản phẩm thông qua loại
         public List<Product> GetProductsByType(int id)
         {
-            
             List<Product> products = dbContext.Products.Include(p => p.Producer).Include(p => p.Category).Where(P => P.CategoryId == id).ToList();
             return products;
+        }
+
+        /* -------------------------- Danh mục sản phẩm -------------------------- */
+        // Lấy danh mục sản phẩm
+        public List<Category> GetCategories()
+        {
+            List<Category> categories = dbContext.Categories.ToList();
+            return categories;
         }
 
     }

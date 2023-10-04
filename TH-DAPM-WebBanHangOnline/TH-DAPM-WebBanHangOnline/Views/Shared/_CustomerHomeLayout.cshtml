@@ -1,5 +1,10 @@
 ﻿@using Microsoft.AspNetCore.Http
 @inject IHttpContextAccessor Accessor
+
+@{
+    var categories = ViewBag.categories;
+}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,11 +47,10 @@
                 </a>
                 <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="4">Quần jean</a>
-                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="1">Áo sơ mi</a>
-                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="2">Áo khoác</a>
-                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="3">Áo thun</a>
-                        <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="5">Váy đầm</a>
+                        @foreach (var item in categories)
+                        {
+                            <a asp-controller="HomeCustomer" asp-action="ListProductByCategory" class="nav-item nav-link" asp-route-id="@item.CategoryId">@item.Name</a>
+                        }
                     </div>
                 </nav>
             </div>
