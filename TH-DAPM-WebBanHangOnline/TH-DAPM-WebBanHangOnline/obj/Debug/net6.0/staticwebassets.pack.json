@@ -1,0 +1,1321 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TH-DAPM-WebBanHangOnline.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TH-DAPM-WebBanHangOnline.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aokhoac1.jpg",
+      "PackagePath": "staticwebassets\\img\\aokhoac1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aosomi1.jpg",
+      "PackagePath": "staticwebassets\\img\\aosomi1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aosomi4.jpg",
+      "PackagePath": "staticwebassets\\img\\aosomi4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aothun2.jpg",
+      "PackagePath": "staticwebassets\\img\\aothun2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aothun4.png",
+      "PackagePath": "staticwebassets\\img\\aothun4.png"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-5.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\offer-1.png",
+      "PackagePath": "staticwebassets\\img\\offer-1.png"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\offer-2.png",
+      "PackagePath": "staticwebassets\\img\\offer-2.png"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\quanjean2.jpg",
+      "PackagePath": "staticwebassets\\img\\quanjean2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\quanjean4.jpg",
+      "PackagePath": "staticwebassets\\img\\quanjean4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vaydam1.jpg",
+      "PackagePath": "staticwebassets\\img\\vaydam1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vaydam2.jpg",
+      "PackagePath": "staticwebassets\\img\\vaydam2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vaydam4.jpg",
+      "PackagePath": "staticwebassets\\img\\vaydam4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\template-login\\css\\.DS_Store"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template-login\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\template-login\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\template-login\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\template-login\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\template-login\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\css\\style.css",
+      "PackagePath": "staticwebassets\\template-login\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\template-login\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\template-login\\images\\.DS_Store"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\template-login\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template-login\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\template-login\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\js\\main.js",
+      "PackagePath": "staticwebassets\\template-login\\js\\main.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\template-login\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\template-login\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\template-login\\scss\\.DS_Store"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\template-login\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\template-login\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TH-DAPM-WebBanHangOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TH-DAPM-WebBanHangOnline.props",
+      "PackagePath": "build\\TH-DAPM-WebBanHangOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TH-DAPM-WebBanHangOnline.props",
+      "PackagePath": "buildMultiTargeting\\TH-DAPM-WebBanHangOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TH-DAPM-WebBanHangOnline.props",
+      "PackagePath": "buildTransitive\\TH-DAPM-WebBanHangOnline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

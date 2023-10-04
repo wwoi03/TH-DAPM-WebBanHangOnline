@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TH_DAPM_WebBanHangOnline.Models;
+using TH_DAPM_WebBanHangOnline.Models.ClassModel;
+using TH_DAPM_WebBanHangOnline.Models.ViewModel;
 
 namespace TH_DAPM_WebBanHangOnline.Controllers
 {
@@ -12,9 +14,26 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         {
             dbHelper = new DBHelper(context);
         }
-
+        //trang chủ sản phẩm khách thấy
         public IActionResult HomePage()
         {
+            List<Product> listpro = dbHelper.getProducts();
+            // Chuyển đổi danh sách sản phẩm sang danh sách ViewModel
+            List<ProductsViewModel> productsViewModel = new List<ProductsViewModel>();
+            foreach (var pro in listpro)
+            {
+                var productViewModel = new ProductsViewModel
+                {
+                    ProductId = pro.ProductId,
+                    Name = pro.Name,
+                    Price = pro.Price,
+                    Description = pro.Description,
+                    Image = pro.Image,
+                    CategoryName = pro.Category?.Name
+                };
+                productsViewModel.Add(productViewModel);
+            }
+            ViewData["listpro"] = productsViewModel;
             return View();
         }
 
@@ -27,8 +46,25 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         }
 
         // Danh sách sản phẩm theo loại
-        public IActionResult ListProductByCategory(int? categoryId)
+        public IActionResult ListProductByCategory(int id)
         {
+            List<Product> listpro = dbHelper.GetProductsByType(id);
+            // Chuyển đổi danh sách sản phẩm sang danh sách ViewModel
+            List<ProductsViewModel> productsViewModel = new List<ProductsViewModel>();
+            foreach (var pro in listpro)
+            {
+                var productViewModel = new ProductsViewModel
+                {
+                    ProductId = pro.ProductId,
+                    Name = pro.Name,
+                    Price = pro.Price,
+                    Description = pro.Description,
+                    Image = pro.Image,
+                    CategoryName = pro.Category?.Name
+                };
+                productsViewModel.Add(productViewModel);
+            }
+            ViewData["listprotype"] = productsViewModel;
             return View();
         }
     }
