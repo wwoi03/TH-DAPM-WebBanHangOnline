@@ -34,6 +34,18 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return carts;
         }
 
+        public Cart GetCartById(int cartId)
+        {
+            return dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).FirstOrDefault(c => c.CartId == cartId);
+        }
+
+        // xóa sản phẩm trong giỏ hàng
+        public void DeleteProductInCart(int cardId)
+        {
+            dbContext.Carts.Remove(GetCartById(cardId));
+            dbContext.SaveChanges();
+        }
+
         /* -------------------------- Chi tiết sản phẩm -------------------------- */
         // lấy danh sách giỏ hàng theo mã khách hàng
         public Product GetProductDetails (int? productId)
@@ -80,6 +92,7 @@ namespace TH_DAPM_WebBanHangOnline.Models
             List<Category> categories = dbContext.Categories.ToList();
             return categories;
         }
+
 
     }
 }
