@@ -3,6 +3,7 @@
 @{
     var listpro = ViewData["listpro"] as IEnumerable<ProductsViewModel>;
     Layout = "~/Views/Shared/_CustomerHomeLayout.cshtml";
+    var i = 0;
 }
 
 
@@ -134,13 +135,13 @@
         <h2 class="section-title px-5"><span class="px-2">Trandy Products</span></h2>
     </div>
     <div class="row px-xl-5 pb-3">
-        @for (int i = 0; i < 8; i++)
+        @for (i = 0; i < 8; i++)
         {
             var item = listpro.ElementAt(i);
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/@item.Image" alt="">
+                        <img class="img-fluid w-100" style="height: 320px !important;" src="img/@item.Image" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">@item.Name</h6>
@@ -186,8 +187,9 @@
     @*  Products *@
 
     <div class="row px-xl-5 pb-3">
-        @foreach (var item in listpro)
+        @for (; i < listpro.Count(); i++)
         {
+            var item = listpro.ElementAt(i);
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
