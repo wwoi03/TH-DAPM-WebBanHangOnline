@@ -19,7 +19,7 @@
 						<th>Xóa</th>
 					</tr>
 				</thead>
-				<tbody class="align-middle">
+				<tbody hx-target="closest tr" hx-swap="outerHTML swap:1s" class="align-middle">
 					@foreach (var item in carts)
 					{
 						var total = item.Product.Price * @item.Quantity;
@@ -47,7 +47,11 @@
 								</div>
 							</td>
 							<td class="align-middle">@total</td>
-							<td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
+							<td class="align-middle">
+								<button hx-delete="/CartCustomer/Delete/@item.CartId" class="btn btn-sm btn-primary">
+									<i class="fa fa-times"></i>
+								</button>
+							</td>
 						</tr>
 					}
 				</tbody>
