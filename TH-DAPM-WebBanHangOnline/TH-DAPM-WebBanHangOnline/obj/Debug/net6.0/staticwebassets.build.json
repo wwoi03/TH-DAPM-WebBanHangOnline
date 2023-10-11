@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HUieod/skYvD5MmRRgGiiu/HGtTA7FfCjKN3bcKZHLI=",
+  "Hash": "WPaL/n8vi0vw+qTCVoFuIhugXTI4SlVT4aGGaiYq+38=",
   "Source": "TH-DAPM-WebBanHangOnline",
   "BasePath": "_content/TH-DAPM-WebBanHangOnline",
   "Mode": "Default",
@@ -763,6 +763,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\vendor-8.jpg"
+    },
+    {
+      "Identity": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\Cart.js",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "js/Cart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Cart.js"
     },
     {
       "Identity": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\main.js",

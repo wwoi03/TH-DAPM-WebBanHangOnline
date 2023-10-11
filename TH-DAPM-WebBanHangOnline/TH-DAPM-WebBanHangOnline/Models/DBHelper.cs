@@ -72,6 +72,12 @@ namespace TH_DAPM_WebBanHangOnline.Models
             List<Product> products = dbContext.Products.Include(p => p.Producer).Include(p => p.Category).Where(P => P.CategoryId == id).ToList();
             return products;
         }
-
+        //-----------------------------------------------------------------Gio Hang-----------------------------------------------------------
+        public void AddItemToCart(Cart cart)
+        {
+            
+            dbContext.Carts.Add(cart);
+            dbContext.SaveChanges();
+        }
     }
 }

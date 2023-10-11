@@ -4434,9 +4434,7 @@ input[type="button"].btn-block {
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
-    .card-footer a {
-        font-size:24px;
-    }
+    
 
     .card-header-tabs {
         margin-right: -0.625rem;

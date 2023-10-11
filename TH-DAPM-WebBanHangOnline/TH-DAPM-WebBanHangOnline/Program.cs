@@ -38,5 +38,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=HomeCustomer}/{action=HomePage}/{id?}");
-
+// Thêm tham số tùy chọn
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=MyController}/{action=MyAction}/{slug?}");
 app.Run();

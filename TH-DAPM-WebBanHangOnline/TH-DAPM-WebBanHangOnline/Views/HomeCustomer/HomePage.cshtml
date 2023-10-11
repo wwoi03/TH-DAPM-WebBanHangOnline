@@ -1,10 +1,8 @@
-﻿
-@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
 @{
     var listpro = ViewData["listpro"] as IEnumerable<ProductsViewModel>;
     Layout = "~/Views/Shared/_CustomerHomeLayout.cshtml";
 }
-
 
 <!-- Featured Start -->
 <div class="container-fluid pt-5">
@@ -150,7 +148,7 @@
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
                         <a asp-controller="HomeCustomer" asp-action="ProductDetails" asp-route-productId="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a asp-controller="CartCustomer" asp-action="AddToCart" asp-route-productid="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -202,7 +200,7 @@
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
                         <a asp-controller="HomeCustomer" asp-action="ProductDetails" asp-route-productId="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a asp-controller="CartCustomer" asp-action="AddToCart" asp-route-productid="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -212,3 +210,4 @@
     </div>
 </div>
 <!-- Products End -->
+<script src="/js/Cart.js"></script>

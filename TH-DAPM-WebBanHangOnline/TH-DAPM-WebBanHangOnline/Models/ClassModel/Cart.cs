@@ -13,6 +13,6 @@ namespace TH_DAPM_WebBanHangOnline.Models.ClassModel
         public Product Product { get; set; }
 
         public int Quantity { get; set; }
-        public DateTime UpdateDay { get; set; }
+        public string UpdateDay { get; set; }
     }
 }
