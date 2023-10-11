@@ -93,6 +93,10 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return categories;
         }
 
-
+        public void AddItemToCart(Cart cart)
+        {
+            dbContext.Carts.Add(cart);
+            dbContext.SaveChanges();
+        }
     }
 }

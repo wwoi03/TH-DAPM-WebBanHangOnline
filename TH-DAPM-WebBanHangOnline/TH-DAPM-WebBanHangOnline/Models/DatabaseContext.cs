@@ -12,8 +12,6 @@ namespace TH_DAPM_WebBanHangOnline.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cart>()
-                .HasKey(o => new { o.CustomerId, o.ProductId });
             modelBuilder.Entity<MyFavourite>()
                 .HasKey(o => new { o.CustomerId, o.ProductId });
             modelBuilder.Entity<OrderDetails>()

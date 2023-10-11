@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TH_DAPM_WebBanHangOnline.Models;
+using TH_DAPM_WebBanHangOnline.Models.ClassModel;
 
 namespace TH_DAPM_WebBanHangOnline.Controllers
 {
@@ -26,6 +27,27 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         {
             dbHelper.DeleteProductInCart(int.Parse(id));
             return StatusCode(200);
+        }
+
+        public IActionResult AddToCart(int quantity = 1, int productid = -1)
+        {
+            if (HttpContext.Session.GetInt32("CustomerId") == null)
+            {
+                return RedirectToAction("Login", "Customer");
+            }
+
+            int customerid = (int) HttpContext.Session.GetInt32("CustomerId");
+            DateTime dateTime = DateTime.Now;
+
+            Cart cart = new Cart
+            {
+                ProductId = productid,
+                CustomerId = customerid,
+                Quantity = quantity,
+            };
+
+            dbHelper.AddItemToCart(cart);
+            return RedirectToAction("Index");
         }
     }
 }
