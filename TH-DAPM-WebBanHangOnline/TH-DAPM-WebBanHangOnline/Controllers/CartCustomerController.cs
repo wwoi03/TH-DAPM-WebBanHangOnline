@@ -49,5 +49,26 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             dbHelper.AddItemToCart(cart);
             return RedirectToAction("Index");
         }
+        public IActionResult AddToCart2(int quantity = 1, int productid = -1)
+        {
+            if (HttpContext.Session.GetInt32("CustomerId") == null)
+            {
+                return Json(new { redirectUrl = Url.Action("Login", "Customer") });
+            }
+
+            int customerid = (int)HttpContext.Session.GetInt32("CustomerId");
+            DateTime dateTime = DateTime.Now;
+
+            Cart cart = new Cart
+            {
+                ProductId = productid,
+                CustomerId = customerid,
+                Quantity = quantity,
+            };
+
+            dbHelper.AddItemToCart(cart);
+            return Json(new { redirectUrl = Url.Action("Index", "CartCustomer") });
+        }
+
     }
 }

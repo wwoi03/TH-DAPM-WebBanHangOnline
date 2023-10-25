@@ -45,7 +45,7 @@
 							<i class="fa fa-minus"></i>
 						</button>
 					</div>
-					<input type="text" class="form-control bg-secondary text-center" value="1">
+					<input type="text" class="form-control bg-secondary text-center" value="1" id="quantity">
 					<div class="input-group-btn">
 						<button class="btn btn-primary btn-plus">
 							<i class="fa fa-plus"></i>
@@ -54,7 +54,8 @@
 				</div>
 				
 				<!-- Thêm vào giỏ hàng -->
-				<button class="btn btn-primary px-3 mr-3"><i class="fa fa-shopping-cart mr-1"></i> Thêm vào giỏ hàng</button>
+				
+				<button class="btn btn-primary px-3 mr-3" onclick="AddToCart(@productDetails.ProductId)"> <i class="fa fa-shopping-cart mr-1"></i> Thêm vào giỏ hàng</button>
 
 				<!-- Yêu thích -->
 				<div class="btn btn-primary px-3"><i class="fa fa-heart mr-1"></i> Yêu thích</div>
@@ -273,4 +274,5 @@
 		</div>
 	</div>
 </div>
+<script src="/js/Cart.js"></script>
 <!-- Products End -->
