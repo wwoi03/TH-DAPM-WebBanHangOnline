@@ -45,6 +45,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             ViewBag.categories = dbHelper.GetCategories();
             ViewBag.PageHeader = "Chi tiết sản phẩm";
             ViewBag.productDetails = dbHelper.GetProductDetails(productId);
+            ViewBag.commentsByProduct = dbHelper.GetCommentsByProductId(productId);
             return View();
         }
 
@@ -71,6 +72,24 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             ViewBag.categories = dbHelper.GetCategories();
             ViewData["listprotype"] = productsViewModel;
             return View();
+        }
+
+        // bình luận trên sản phẩm
+        [HttpPost]
+        public IActionResult AddComment(CommentViewModel commentViewModel)
+        {
+            Comment comment = new Comment()
+            {
+                CustomerId = (int) HttpContext.Session.GetInt32("CustomerId"),
+                ProductId = commentViewModel.ProductId,
+                CommentContent = commentViewModel.CommentContent,
+                StarRating = 5,
+                CommentDate = DateTime.Now
+            };
+
+            dbHelper.AddComment(comment);
+
+            return RedirectToAction("ProductDetails", new { productId = commentViewModel.ProductId });
         }
     }
 }

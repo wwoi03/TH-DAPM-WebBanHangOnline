@@ -61,7 +61,6 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return products;
         }
 
-
         //lấy sản phẩm thông qua id
         public Product getProductById(int id)
         {
@@ -83,6 +82,20 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             List<Product> products = dbContext.Products.Include(p => p.Producer).Include(p => p.Category).Where(P => P.CategoryId == id).ToList();
             return products;
+        }
+
+        // lấy danh sách comment trên sản phẩm
+        public List<Comment> GetCommentsByProductId(int? id)
+        {
+            List<Comment> comments = dbContext.Comments.Include(p => p.Product).Include(p => p.Customer).Where(P => P.ProductId == id).ToList();
+            return comments;
+        }
+
+        // thêm bình luộn
+        public void AddComment(Comment comment)
+        {
+            dbContext.Comments.Add(comment);
+            dbContext.SaveChanges();
         }
 
         /* -------------------------- Danh mục sản phẩm -------------------------- */

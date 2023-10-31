@@ -1,10 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using TH_DAPM_WebBanHangOnline.Models.ClassModel;
 
-namespace TH_DAPM_WebBanHangOnline.Models.ClassModel
+namespace TH_DAPM_WebBanHangOnline.Models.ViewModel
 {
-    public class Comment
+    public class CommentViewModel
     {
-        [Key]
         public int CommentId { get; set; }
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }
