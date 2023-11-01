@@ -78,11 +78,12 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 		[HttpGet]
         public IActionResult EditQuantityPro(int cartId, int quantity)
         {
+            double total;
             if(cartId!=0)
             {
-                double total = 0;
+                
 				dbHelper.EditQuantityPro(cartId, quantity,out total);
-				return Json(total);
+				return Json(total.ToString("0.00"));
 			}
             return Json("null");
         }

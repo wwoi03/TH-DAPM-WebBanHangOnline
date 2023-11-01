@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     url: "/CartCustomer/EditQuantityPro/" + cartId + "/" + inputQuantity.value,
                     type: "Get",                   
                     success: function (data) {                      
-                        console.log(data);
+                        document.getElementById('total-' + cartId).innerHTML = data;
                     }
                 })
             });
