@@ -87,7 +87,7 @@ namespace TH_DAPM_WebBanHangOnline.Models
         // lấy danh sách comment trên sản phẩm
         public List<Comment> GetCommentsByProductId(int? id)
         {
-            List<Comment> comments = dbContext.Comments.Include(p => p.Product).Include(p => p.Customer).Where(P => P.ProductId == id).ToList();
+            List<Comment> comments = dbContext.Comments.Include(p => p.Product).Include(p => p.Customer).Where(P => P.ProductId == id).OrderByDescending(p => p.CommentDate).ToList();
             return comments;
         }
 
