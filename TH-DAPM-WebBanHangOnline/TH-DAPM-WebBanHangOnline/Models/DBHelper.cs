@@ -44,11 +44,25 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             dbContext.Carts.Remove(GetCartById(cardId));
             dbContext.SaveChanges();
+
         }
 
-        /* -------------------------- Chi tiết sản phẩm -------------------------- */
-        // lấy danh sách giỏ hàng theo mã khách hàng
-        public Product GetProductDetails (int? productId)
+        //chỉnh sửa số lượng sản phẩm trong giỏ hàng
+        public void EditQuantityPro(int? cartId,int quanti)
+        {
+
+           
+			var cart = dbContext.Carts.FirstOrDefault(c => c.CartId == cartId);
+			if (cart != null)
+			{
+				cart.Quantity = quanti;
+				dbContext.SaveChanges();
+			}
+		}
+
+		/* -------------------------- Chi tiết sản phẩm -------------------------- */
+		// lấy danh sách giỏ hàng theo mã khách hàng
+		public Product GetProductDetails (int? productId)
         {
             return dbContext.Products.Include(p => p.Producer).Include(p => p.Category).FirstOrDefault(p => p.ProductId == productId);
         }

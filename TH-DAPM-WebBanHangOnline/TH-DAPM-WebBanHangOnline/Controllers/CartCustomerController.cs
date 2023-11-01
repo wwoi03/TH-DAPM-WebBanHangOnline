@@ -49,7 +49,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             dbHelper.AddItemToCart(cart);
             return RedirectToAction("Index");
         }
-        public IActionResult AddToCart2(int quantity = 1, int productid = -1)
+        
+        public IActionResult AddToCartToProductDetals(int quantity = 1, int productid = -1)
         {
             if (HttpContext.Session.GetInt32("CustomerId") == null)
             {
@@ -70,5 +71,14 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             return Json(new { redirectUrl = Url.Action("Index", "CartCustomer") });
         }
 
+
+        //Edit Quantity
+        [HttpGet]
+        public IActionResult EditQuantityPro(int? cartId,int quantity)
+        {
+            
+            dbHelper.EditQuantityPro(cartId, quantity);
+            return Json("god");
+        }
     }
 }

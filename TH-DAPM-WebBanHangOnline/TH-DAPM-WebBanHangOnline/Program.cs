@@ -43,4 +43,9 @@ app.MapControllerRoute(
 	name: "AddToCart",
 	pattern: "{controller=CartCustomer}/{action=AddToCart}/{productid}/{quantity}",
 	defaults: new { controller = "CartCustomer", action = "AddToCart" });
+app.MapControllerRoute(
+    name: "EditQuantityPro",
+    pattern: "{controller=CartCustomer}/{action=EditQuantityPro}/{cartId}/{quantity}",
+    defaults: new { controller = "CartCustomer", action = "EditQuantityPro" }
+    );
 app.Run();
