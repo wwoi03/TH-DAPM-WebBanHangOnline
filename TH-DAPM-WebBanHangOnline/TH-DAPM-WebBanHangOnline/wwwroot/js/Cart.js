@@ -29,12 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 var inputQuantity = this.parentNode.parentNode.querySelector('input');
                 console.log(inputQuantity.value);
                 var cartId = this.getAttribute('data');
-              
+                let price = document.getElementById('item-price');
+                // this.getElementById('total').value = price * document.getElementById(cartId);
+                console.log(price);
                 $.ajax({                 
                     url: "/CartCustomer/EditQuantityPro/" + cartId + "/" + inputQuantity.value,
                     type: "Get",                   
-                    success: function (data) {
-                        console.log('id=' + cartId);
+                    success: function (data) {                      
                         console.log(data);
                     }
                 })
@@ -48,9 +49,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log(inputQuantity.value);
                 var cartId = this.getAttribute('data');
                 console.log('id=' + cartId);
+                $.ajax({
+                    url: "/CartCustomer/EditQuantityPro/" + cartId + "/" + inputQuantity.value,
+                    type: "Get",
+                    success: function (data) {
+                        console.log(data);
+                        document.getElementById('total-' + cartId).innerHTML = data;
+                    }
+                })
             });
         });
     }
+    
 });
 
 

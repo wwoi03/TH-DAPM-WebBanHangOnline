@@ -48,14 +48,15 @@ namespace TH_DAPM_WebBanHangOnline.Models
         }
 
         //chỉnh sửa số lượng sản phẩm trong giỏ hàng
-        public void EditQuantityPro(int? cartId,int quanti)
+        public void EditQuantityPro(int cartId,int quanti , out double total)
         {
-
+            total = 0;
            
-			var cart = dbContext.Carts.FirstOrDefault(c => c.CartId == cartId);
+			var cart = dbContext.Carts.Include(p=>p.Product).FirstOrDefault(c => c.CartId == cartId);
 			if (cart != null)
 			{
 				cart.Quantity = quanti;
+                total =  cart.Product.Price * quanti;
 				dbContext.SaveChanges();
 			}
 		}
