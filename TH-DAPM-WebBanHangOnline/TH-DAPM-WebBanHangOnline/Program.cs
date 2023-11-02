@@ -39,8 +39,13 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=HomeCustomer}/{action=HomePage}/{id?}");
 //link thêm vào giở hàng trang chi tiết
-app.MapControllerRoute(
-	name: "AddToCart",
-	pattern: "{controller=CartCustomer}/{action=AddToCart}/{productid}/{quantity}",
-	defaults: new { controller = "CartCustomer", action = "AddToCart" });
+//app.MapControllerRoute(
+//	name: "AddToCart",
+//	pattern: "{controller=CartCustomer}/{action=AddToCartToProductDetals}/{productid}/{quantity}",
+//	defaults: new { controller = "CartCustomer", action = "AddToCartToProductDetals" });
+//app.MapControllerRoute(
+//	name: "EditQuantityPro",
+//    pattern: "{controller=CartCustomer}/{action=EditQuantityPro}/{quantity}/{cartId}",
+//	defaults: new { controller = "CartCustomer", action = "EditQuantityPro" }
+//	);
 app.Run();

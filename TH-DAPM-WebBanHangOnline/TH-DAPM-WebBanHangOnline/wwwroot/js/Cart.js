@@ -2,7 +2,7 @@
     let quantity = document.getElementById('quantity').value;
     
     $.ajax({
-        url: '../../CartCustomer/AddToCart2/' + producid + '/' + quantity,
+        url: '../../CartCustomer/AddToCartToProductDetals/' + producid + '/' + quantity,
         type: 'GET',
         success: function (data) {
 
@@ -14,3 +14,57 @@
         }
     });
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    EditQuantityCard();
+
+
+    function EditQuantityCard() {
+        
+        var btnMinus = document.querySelectorAll('.btn-minus');
+        var btnPlus = document.querySelectorAll('.btn-plus');     
+        btnMinus.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                // Lấy input chứa số lượng
+                var inputQuantity = this.parentNode.parentNode.querySelector('input');
+                console.log(inputQuantity.value);
+                var cartId = this.getAttribute('data');
+                let price = document.getElementById('item-price');
+                // this.getElementById('total').value = price * document.getElementById(cartId);
+                console.log(price);
+                $.ajax({                 
+                    url: "/CartCustomer/EditQuantityPro/" + cartId + "/" + inputQuantity.value,
+                    type: "Get",                   
+                    success: function (data) {                      
+                        document.getElementById('total-' + cartId).innerHTML = data;
+                    }
+                })
+            });
+        });
+
+        btnPlus.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                // Lấy input chứa số lượng
+                var inputQuantity = this.parentNode.parentNode.querySelector('input');
+                console.log(inputQuantity.value);
+                var cartId = this.getAttribute('data');
+                console.log('id=' + cartId);
+                $.ajax({
+                    url: "/CartCustomer/EditQuantityPro/" + cartId + "/" + inputQuantity.value,
+                    type: "Get",
+                    success: function (data) {
+                        console.log(data);
+                        document.getElementById('total-' + cartId).innerHTML = data;
+                    }
+                })
+            });
+        });
+    }
+    
+});
+
+
+
+
+
+

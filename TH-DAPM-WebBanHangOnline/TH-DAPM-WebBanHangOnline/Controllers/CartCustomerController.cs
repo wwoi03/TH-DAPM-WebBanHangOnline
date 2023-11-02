@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks.Dataflow;
 using TH_DAPM_WebBanHangOnline.Models;
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
 
@@ -28,8 +29,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             dbHelper.DeleteProductInCart(int.Parse(id));
             return StatusCode(200);
         }
-
-        public IActionResult AddToCart(int quantity = 1, int productid = -1)
+		
+		public IActionResult AddToCart(int quantity = 1, int productid = -1)
         {
             if (HttpContext.Session.GetInt32("CustomerId") == null)
             {
@@ -49,7 +50,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             dbHelper.AddItemToCart(cart);
             return RedirectToAction("Index");
         }
-        public IActionResult AddToCart2(int quantity = 1, int productid = -1)
+		[Route("/CartCustomer/AddToCartToProductDetals/{productid}/{quantity}")]
+		public IActionResult AddToCartToProductDetals(int quantity = 1, int productid = -1)
         {
             if (HttpContext.Session.GetInt32("CustomerId") == null)
             {
@@ -70,5 +72,20 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             return Json(new { redirectUrl = Url.Action("Index", "CartCustomer") });
         }
 
+
+		//Edit Quantity
+		[Route("/CartCustomer/EditQuantityPro/{cartId}/{quantity}")]
+		[HttpGet]
+        public IActionResult EditQuantityPro(int cartId, int quantity)
+        {
+            double total;
+            if(cartId!=0)
+            {
+                
+				dbHelper.EditQuantityPro(cartId, quantity,out total);
+				return Json(total.ToString("0.00"));
+			}
+            return Json("null");
+        }
     }
 }
