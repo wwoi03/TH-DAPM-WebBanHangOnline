@@ -70,13 +70,19 @@ namespace TH_DAPM_WebBanHangOnline.Models
 
 
         //tìm kiếm sản phẩm
-        public List<Product> GetProductByName(string value)
+        public List<Product> GetListProductByName(string name)
         {
-           
-                return dbContext.Products.Where(p => p.Name.Contains(value)).OrderByDescending(p => p.ProductId).ToList();
-            
-            
+            var query = dbContext.Products.Include(p => p.Category).AsQueryable();
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                query = query.Where(p => p.Name.Contains(name) || p.Category.Name.Contains(name));
+            }
+
+            return query.OrderByDescending(p => p.ProductId).ToList();
         }
+
+
 
         /* -------------------------- SẢN PHẨM TRANG BÁN -------------------------- */
         //lấy danh sách sản phẩm

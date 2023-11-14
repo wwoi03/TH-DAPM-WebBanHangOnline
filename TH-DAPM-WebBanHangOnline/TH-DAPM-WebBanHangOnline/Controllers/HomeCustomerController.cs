@@ -94,8 +94,19 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         //tìm kiếm sản phẩm
         public IActionResult SearchProduct(string valuesSearch)
         {
-
+            ViewBag.categories = dbHelper.GetCategories();
+            List<Product> products = dbHelper.GetListProductByName(valuesSearch);
+            ViewData["ResultSeacrchPro"] = products.Select(item => new ProductsViewModel
+            {
+                Name = item.Name,
+                Price = item.Price,
+                Description = item.Description,
+                Image=item.Image,
+                CategoryName=item.Category.Name
+            }).ToList();
             return View();
         }
+
+        
     }
 }
