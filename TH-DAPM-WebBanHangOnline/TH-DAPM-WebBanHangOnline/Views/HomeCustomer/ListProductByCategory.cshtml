@@ -11,37 +11,62 @@
 	<div class="row px-xl-5">
 		<!-- Shop Sidebar Start -->
 		<div class="col-lg-3 col-md-12">
-			<!-- Sắp xếp theo giá -->
-			<div class="border-bottom mb-4 pb-4">
-				<h5 class="font-weight-semi-bold mb-4">Sắp xếp theo giá</h5>
-				<form>
-					<div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-						<input type="checkbox" class="custom-control-input" checked id="price-all">
-						<label class="custom-control-label" for="price-all">All Price</label>
-						<span class="badge border font-weight-normal">1000</span>
-					</div>
-					<div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-						<input type="checkbox" class="custom-control-input" id="price-1">
-						<label class="custom-control-label" for="price-1">$0 - $100</label>
-						<span class="badge border font-weight-normal">150</span>
-					</div>
-				</form>
-			</div>
+            <!-- Sắp xếp theo giá -->
+            <div class="border-bottom mb-4 pb-4">
+                <h5 class="font-weight-semi-bold mb-4">Sắp xếp theo giá</h5>
+                <form id="priceFilterForm">
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-1">
+                        <label class="custom-control-label" for="price-1">$0 - $30</label>
+                    </div>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-2">
+                        <label class="custom-control-label" for="price-2">$30 - $60</label>
+                    </div>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-3">
+                        <label class="custom-control-label" for="price-3">$60 - $90</label>
+                    </div>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-4">
+                        <label class="custom-control-label" for="price-4">>$90</label>
+                    </div>
+                </form>
+            </div>
 
 			<!-- Sắp xếp theo lượt bán -->
 			<div class="border-bottom mb-4 pb-4">
-				<h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
+				<h5 class="font-weight-semi-bold mb-4">Color</h5>
 				<form>
 					<div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-						<input type="checkbox" class="custom-control-input" checked id="color-all">
+						<input  class="custom-control-input" checked id="color-all">
 						<label class="custom-control-label" for="price-all">All Color</label>
 						<span class="badge border font-weight-normal">1000</span>
 					</div>
+
 					<div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-						<input type="checkbox" class="custom-control-input" id="color-1">
+						<input  class="custom-control-input" id="color-1">
 						<label class="custom-control-label" for="color-1">Black</label>
 						<span class="badge border font-weight-normal">150</span>
 					</div>
+                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <input class="custom-control-input" id="color-1">
+                        <label class="custom-control-label" for="color-1">Blue</label>
+                        <span class="badge border font-weight-normal">150</span>
+                    </div>
+                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <input  class="custom-control-input" id="color-1">
+                        <label class="custom-control-label" for="color-1">White</label>
+                        <span class="badge border font-weight-normal">150</span>
+                    </div>
+                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <input  class="custom-control-input" id="color-1">
+                        <label class="custom-control-label" for="color-1">Yellow</label>
+                        <span class="badge border font-weight-normal">150</span>
+                    </div>
 				</form>
 			</div>
 		</div>

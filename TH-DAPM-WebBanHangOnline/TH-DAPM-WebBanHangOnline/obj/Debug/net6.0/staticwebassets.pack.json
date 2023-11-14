@@ -173,6 +173,10 @@
       "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
     },
     {
+      "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\SortProductByPrice.js",
+      "PackagePath": "staticwebassets\\js\\SortProductByPrice.js"
+    },
+    {
       "Id": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

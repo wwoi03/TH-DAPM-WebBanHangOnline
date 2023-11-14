@@ -1,7 +1,8 @@
 ﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel;
 @{
-   Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
     var listpro = ViewData["ResultSeacrchPro"] as IEnumerable<ProductsViewModel>;
+   
 }
 
 <!-- Shop Start -->
@@ -12,22 +13,32 @@
             <!-- Sắp xếp theo giá -->
             <div class="border-bottom mb-4 pb-4">
                 <h5 class="font-weight-semi-bold mb-4">Sắp xếp theo giá</h5>
-                <form>
-                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" class="custom-control-input" checked id="price-all">
-                        <label class="custom-control-label" for="price-all">All Price</label>
-                        <span class="badge border font-weight-normal">1000</span>
+                <form id="priceFilterForm">
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-1">
+                        <label class="custom-control-label" for="price-1">$0 - $30</label>
                     </div>
-                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                        <input type="checkbox" class="custom-control-input" id="price-1">
-                        <label class="custom-control-label" for="price-1">$0 - $100</label>
-                        <span class="badge border font-weight-normal">150</span>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-2">
+                        <label class="custom-control-label" for="price-2">$30 - $60</label>
+                    </div>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-3">
+                        <label class="custom-control-label" for="price-3">$60 - $90</label>
+                    </div>
+
+                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
+                        <input type="radio" class="custom-control-input" name="price" id="price-4">
+                        <label class="custom-control-label" for="price-4">>$90</label>
                     </div>
                 </form>
+
             </div>
 
             <!-- Sắp xếp theo lượt bán -->
-            <div class="border-bottom mb-4 pb-4">
+           @*  <div class="border-bottom mb-4 pb-4">
                 <h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
                 <form>
                     <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -41,13 +52,13 @@
                         <span class="badge border font-weight-normal">150</span>
                     </div>
                 </form>
-            </div>
+            </div> *@
         </div>
         <!-- Shop Sidebar End -->
         <!-- Shop Product Start -->
         <div class="col-lg-9 col-md-12">
-            <div class="row pb-3">
-                <div class="col-12 pb-1">
+            <div class="row pb-3 " id="ListProSort1">
+              @*   <div class="col-12 pb-1">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <form action="">
                             <div class="input-group">
@@ -71,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> *@
 
                 @foreach (var item in listpro)
                 {
@@ -90,7 +101,7 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between bg-light border">
                                 <a asp-controller="HomeCustomer" asp-action="ProductDetails" asp-route-productId="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                                <a asp-controller="HomeCustomer" asp-action="ProductDetails" asp-route-productId="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                                <a asp-controller="CartCustomer" asp-action="AddToCart" asp-route-productId="@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -98,9 +109,13 @@
 
                 
             </div>
+            <div id="ListProSort">
+
+            </div>
         </div>
         <!-- Shop Product End -->
     </div>
 </div>
+<script src="/js/SortProductByPrice.js"></script>
 <!-- Shop End -->
 <!-- Products End -->
