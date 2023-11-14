@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj": {}
+    "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj": {}
   },
   "projects": {
-    "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj": {
+    "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
+        "projectUniqueName": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
         "projectName": "TH-DAPM-WebBanHangOnline",
-        "projectPath": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
+        "projectPath": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\obj\\",
+        "outputPath": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

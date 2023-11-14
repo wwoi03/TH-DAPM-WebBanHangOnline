@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3ddJcddfdqELdvtjD5mubTYBagYnp7Z6jqha18jtiSiNKwTsxiSNZXkAGq3whtCYEzHc/6Nl4o77DnRJK2NoA==",
+  "dgSpecHash": "HAKmqGMQEdHLoHC+A/+G2YDOuKhL3L4qSENa2dV3SPO+X1bvYh3LlfvmKjF8eXVRckUBdxrSW9YuVUCTDKvFJQ==",
   "success": true,
-  "projectFilePath": "D:\\DaiHoc\\NAM3\\TH-DAPM-Web-Ban-Hang\\main\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
+  "projectFilePath": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
