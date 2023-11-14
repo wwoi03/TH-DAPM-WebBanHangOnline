@@ -34,6 +34,13 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return carts;
         }
 
+        // tính số lưởng sản phẩm trong giỏ hàng
+        public int GetCountMyCart(int? customerId)
+        {
+            int countCart = dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).Where(c => c.CustomerId == customerId).ToList().Count;
+            return countCart;
+        }
+
         public Cart GetCartById(int cartId)
         {
             return dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).FirstOrDefault(c => c.CartId == cartId);
@@ -60,6 +67,55 @@ namespace TH_DAPM_WebBanHangOnline.Models
 				dbContext.SaveChanges();
 			}
 		}
+
+        // lấy danh sách order
+        public List<Order> GetOrderByCustomerId(int customerId)
+        {
+            return dbContext.Orders.Include(item => item.Customer).Where(item => item.CustomerId == customerId).OrderByDescending(item => item.OrderId).ToList();
+        }
+
+        // lấy danh sách chi tiết đơn hàng theo orderid
+        public List<OrderDetails> GetListOrderDetailsByOrderId(int orderId)
+        {
+            return dbContext.OrderDetails.Include(item => item.Product).Include(item => item.Order).Where(item => item.OrderId == orderId).ToList();
+        }
+
+        // đặt hàng
+        public void CreateOrder(Order order, List<Cart> listCart) 
+        {
+            dbContext.Orders.Add(order);
+            dbContext.SaveChanges();
+
+            foreach (var item in listCart)
+            {
+                OrderDetails orderDetails = new OrderDetails()
+                {
+                    OrderId = order.OrderId,
+                    ProductId = item.ProductId,
+                    Price = item.Product.Price,
+                    Quantity = item.Quantity,
+                    Total = item.Product.Price * item.Quantity
+                };
+
+                CreateOrderDetails(orderDetails);
+            }
+
+            DeleteAllCart(listCart);
+        }
+
+        // tạo chi tiết đơn hàng
+        public void CreateOrderDetails(OrderDetails orderDetails)
+        {
+            dbContext.OrderDetails.Add(orderDetails);
+            dbContext.SaveChanges();
+        }
+
+        // xóa sản phẩm trong giỏ hàng
+        public void DeleteAllCart(List<Cart> carts)
+        {
+            dbContext.Carts.RemoveRange(carts);
+            dbContext.SaveChanges();
+        }
 
 		/* -------------------------- Chi tiết sản phẩm -------------------------- */
 		// lấy danh sách giỏ hàng theo mã khách hàng
@@ -118,7 +174,7 @@ namespace TH_DAPM_WebBanHangOnline.Models
         // lấy danh sách comment trên sản phẩm
         public List<Comment> GetCommentsByProductId(int? id)
         {
-            List<Comment> comments = dbContext.Comments.Include(p => p.Product).Include(p => p.Customer).Where(P => P.ProductId == id).ToList();
+            List<Comment> comments = dbContext.Comments.Include(p => p.Product).Include(p => p.Customer).Where(P => P.ProductId == id).OrderByDescending(p => p.CommentDate).ToList();
             return comments;
         }
 
@@ -135,6 +191,13 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             List<Category> categories = dbContext.Categories.ToList();
             return categories;
+        }
+
+        // thêm loại sản phẩm
+        public void CreateCategory(Category category)
+        {
+            dbContext.Categories.Add(category);
+            dbContext.SaveChanges();
         }
 
         public void AddItemToCart(Cart cart)

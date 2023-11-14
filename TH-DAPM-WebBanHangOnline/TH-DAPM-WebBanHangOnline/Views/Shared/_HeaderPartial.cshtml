@@ -1,4 +1,5 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
 
 <!-- Topbar Start -->
 <div class="container-fluid">
@@ -49,16 +50,22 @@
 			</form>
 		</div>
 		<div class="col-lg-3 col-6 text-right">
-			<!-- Sản phẩm yêu thích -->
+			@*<!-- Sản phẩm yêu thích -->
 			<a href="" class="btn border">
 				<i class="fas fa-heart text-primary"></i>
-				<span class="badge">0</span>
+				<span class="badge">@Accessor.HttpContext.Session.GetInt32("countFavourite")</span>
+			</a>*@
+
+			<!-- Đơn hàng -->
+			<a asp-controller="OrderCustomer" asp-action="Index" class="btn border">
+				<i class="fa fa-shipping-fast text-primary"></i>
+				<span class="badge"></span>
 			</a>
 
 			<!-- Giỏ hàng -->
 			<a class="btn border" asp-controller="CartCustomer" asp-action="Index">
 				<i class="fas fa-shopping-cart text-primary"></i>
-				<span class="badge">0</span>
+				<span class="badge">@Accessor.HttpContext.Session.GetInt32("countCart")</span>
 			</a>
 		</div>
 	</div>

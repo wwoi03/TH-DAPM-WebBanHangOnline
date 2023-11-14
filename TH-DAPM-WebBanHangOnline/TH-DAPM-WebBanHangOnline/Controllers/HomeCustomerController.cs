@@ -20,6 +20,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         public IActionResult HomePage()
         {
             List<Product> listpro = dbHelper.getProducts();
+
             // Chuyển đổi danh sách sản phẩm sang danh sách ViewModel
             List<ProductsViewModel> productsViewModel = new List<ProductsViewModel>();
             foreach (var pro in listpro)

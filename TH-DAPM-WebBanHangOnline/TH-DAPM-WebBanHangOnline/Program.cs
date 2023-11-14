@@ -38,6 +38,9 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=HomeCustomer}/{action=HomePage}/{id?}");
+/*app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Admin}/{action=Dashboard}/{id?}");*/
 //link thêm vào giở hàng trang chi tiết
 //app.MapControllerRoute(
 //	name: "AddToCart",

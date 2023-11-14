@@ -1,0 +1,122 @@
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
+	Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+	var listCartCheckout = ViewBag.listCartCheckout;
+	double total = 0;
+	var orderDate = (DateTime.Now).ToString("dd/MM/yyyy");
+}
+@model OrderViewModel;
+
+<!-- Checkout Start -->
+<div class="container-fluid pt-5">
+	<form asp-controller="CartCustomer" asp-action="Checkout" method="post" class="row px-xl-5">
+		<!-- Thanh toán -->
+		<div class="col-lg-8">
+			<div class="mb-4">
+				<h4 class="font-weight-semi-bold mb-4">Địa chỉ thanh toán</h4>
+				<div class="row">
+					<!-- Tên người nhận -->
+					<div class="col-md-6 form-group">
+						<label>Tên người nhận</label>
+						<input asp-for="RecipientName" class="form-control" type="text" placeholder="John">
+						<span asp-validation-for="@Model.RecipientName" class="text-danger"></span>
+					</div>
+
+					<!-- Số điện thoại -->
+					<div class="col-md-6 form-group">
+						<label>Số điện thoại người nhận</label>
+						<input asp-for="Phone" class="form-control" type="text" placeholder="+123 456 789">
+						<span asp-validation-for="@Model.Phone" class="text-danger"></span>
+					</div>
+
+					<!-- Địa chỉ -->
+					<div class="col-md-6 form-group">
+						<label>Địa chỉ nhận hàng</label>
+						<input asp-for="AddressDeliverry" class="form-control" type="text" placeholder="123 Street">
+						<span asp-validation-for="@Model.AddressDeliverry" class="text-danger"></span>
+					</div>
+
+					<!-- Ngày thanh toán -->
+					<div class="col-md-6 form-group">
+						<label>Ngày thanh toán</label>
+						<input class="form-control" type="text" readonly value="@orderDate">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Chi tiết đơn hàng -->
+		<div class="col-lg-4">
+			<div class="card border-secondary mb-5">
+				<div class="card-header bg-secondary border-0">
+					<h4 class="font-weight-semi-bold m-0">Order Total</h4>
+				</div>
+				<div class="card-body">
+					<!-- danh sách sản phẩm -->
+					<h5 class="font-weight-medium mb-3">Sản phẩm</h5>
+					@foreach(var item in listCartCheckout)
+					{
+						total += item.Quantity * item.Product.Price;
+
+						<div class="d-flex justify-content-between">
+							<p>@item.Product.Name (x@(item.Quantity))</p>
+							<p>$@(item.Quantity * item.Product.Price)</p>
+						</div>
+					}
+
+					<hr class="mt-0">
+
+					<!-- Tổng tiền -->
+					<div class="d-flex justify-content-between mb-3 pt-1">
+						<h6 class="font-weight-medium">Tổng phụ</h6>
+						<h6 class="font-weight-medium">$@total</h6>
+						<input hidden asp-for="SubTotal" value="@total" />
+					</div>
+
+					<div class="d-flex justify-content-between">
+						<h6 class="font-weight-medium">Phí giao hàng</h6>
+						<h6 class="font-weight-medium">$0</h6>
+						<input hidden asp-for="FeeShipping" value="0" />
+					</div>
+				</div>
+				<div class="card-footer border-secondary bg-transparent">
+					<div class="d-flex justify-content-between mt-2">
+						<h5 class="font-weight-bold">Tổng tiền</h5>
+						<h5 class="font-weight-bold">$@total</h5>
+						<input hidden asp-for="Total" value="@(total)" />
+					</div>
+				</div>
+			</div>
+			<div class="card border-secondary mb-5">
+				<div class="card-header bg-secondary border-0">
+					<h4 class="font-weight-semi-bold m-0">Payment</h4>
+				</div>
+				<div class="card-body">
+					<div class="form-group">
+						<div class="custom-control custom-radio">
+							<input type="radio" class="custom-control-input" name="payment" id="paypal">
+							<label class="custom-control-label" for="paypal">Paypal</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="custom-control custom-radio">
+							<input type="radio" class="custom-control-input" name="payment" id="directcheck">
+							<label class="custom-control-label" for="directcheck">Direct Check</label>
+						</div>
+					</div>
+					<div class="">
+						<div class="custom-control custom-radio">
+							<input type="radio" class="custom-control-input" name="payment" id="banktransfer">
+							<label class="custom-control-label" for="banktransfer">Bank Transfer</label>
+						</div>
+					</div>
+				</div>
+				<!-- Đặt hàng -->
+				<div class="card-footer border-secondary bg-transparent">
+					<input type="submit" value="Đặt hàng" class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3"/>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+<!-- Checkout End -->
