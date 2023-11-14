@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TH_DAPM_WebBanHangOnline
 build_property.RootNamespace = TH_DAPM_WebBanHangOnline
@@ -15,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\DaiHoc\NAM3\TH_DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CartCustomer/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CartCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CategoriesAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Customer/Login.cshtml]
@@ -47,8 +60,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXFNvcnRQcm9CeVByaWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/OrderCustomer/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDdXN0b21lclxDaGVja291dC5jc2h0bWw=
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/OrderCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDdXN0b21lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProductAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProductAdmin/ProductAdmin.cshtml]
@@ -61,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_BreadCrumbsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CcmVhZENydW1ic1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_CustomerHomeLayout.cshtml]
@@ -77,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_NavbarCustomerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJDdXN0b21lclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DaiHoc/NAM3/TH_DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Shared/_PageHeaderPartial.cshtml]
