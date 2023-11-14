@@ -68,6 +68,49 @@ namespace TH_DAPM_WebBanHangOnline.Models
 			}
 		}
 
+        // lấy danh sách order
+        public List<Order> GetOrderByCustomerId(int customerId)
+        {
+            return dbContext.Orders.Include(item => item.Customer).Where(item => item.CustomerId == customerId).ToList();
+        }
+
+        // đặt hàng
+        public void CreateOrder(Order order, List<Cart> listCart) 
+        {
+            dbContext.Orders.Add(order);
+            dbContext.SaveChanges();
+
+            foreach (var item in listCart)
+            {
+                OrderDetails orderDetails = new OrderDetails()
+                {
+                    OrderId = order.OrderId,
+                    ProductId = item.ProductId,
+                    Price = item.Product.Price,
+                    Quantity = item.Quantity,
+                    Total = item.Product.Price * item.Quantity
+                };
+
+                CreateOrderDetails(orderDetails);
+            }
+
+            DeleteAllCart(listCart);
+        }
+
+        // tạo chi tiết đơn hàng
+        public void CreateOrderDetails(OrderDetails orderDetails)
+        {
+            dbContext.OrderDetails.Add(orderDetails);
+            dbContext.SaveChanges();
+        }
+
+        // xóa sản phẩm trong giỏ hàng
+        public void DeleteAllCart(List<Cart> carts)
+        {
+            dbContext.Carts.RemoveRange(carts);
+            dbContext.SaveChanges();
+        }
+
 		/* -------------------------- Chi tiết sản phẩm -------------------------- */
 		// lấy danh sách giỏ hàng theo mã khách hàng
 		public Product GetProductDetails (int? productId)

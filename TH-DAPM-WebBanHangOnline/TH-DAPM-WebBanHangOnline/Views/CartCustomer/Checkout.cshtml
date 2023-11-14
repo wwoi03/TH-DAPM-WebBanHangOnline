@@ -1,7 +1,7 @@
 ﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
 @{
 	Layout = "~/Views/Shared/_CustomerLayout.cshtml";
-	var listCart = ViewBag.listCart;
+	var listCartCheckout = ViewBag.listCartCheckout;
 	double total = 0;
 	var orderDate = (DateTime.Now).ToString("dd/MM/yyyy");
 }
@@ -9,10 +9,10 @@
 
 <!-- Checkout Start -->
 <div class="container-fluid pt-5">
-	<div class="row px-xl-5">
+	<form asp-controller="CartCustomer" asp-action="Checkout" method="post" class="row px-xl-5">
 		<!-- Thanh toán -->
 		<div class="col-lg-8">
-			<form class="mb-4">
+			<div class="mb-4">
 				<h4 class="font-weight-semi-bold mb-4">Địa chỉ thanh toán</h4>
 				<div class="row">
 					<!-- Tên người nhận -->
@@ -32,8 +32,8 @@
 					<!-- Địa chỉ -->
 					<div class="col-md-6 form-group">
 						<label>Địa chỉ nhận hàng</label>
-						<input asp-for="AddressDelivery" class="form-control" type="text" placeholder="123 Street">
-						<span asp-validation-for="@Model.AddressDelivery" class="text-danger"></span>
+						<input asp-for="AddressDeliverry" class="form-control" type="text" placeholder="123 Street">
+						<span asp-validation-for="@Model.AddressDeliverry" class="text-danger"></span>
 					</div>
 
 					<!-- Ngày thanh toán -->
@@ -42,7 +42,7 @@
 						<input class="form-control" type="text" readonly value="@orderDate">
 					</div>
 				</div>
-			</form>
+			</div>
 		</div>
 
 		<!-- Chi tiết đơn hàng -->
@@ -54,7 +54,7 @@
 				<div class="card-body">
 					<!-- danh sách sản phẩm -->
 					<h5 class="font-weight-medium mb-3">Sản phẩm</h5>
-					@foreach(var item in listCart)
+					@foreach(var item in listCartCheckout)
 					{
 						total += item.Quantity * item.Product.Price;
 
@@ -70,17 +70,20 @@
 					<div class="d-flex justify-content-between mb-3 pt-1">
 						<h6 class="font-weight-medium">Tổng phụ</h6>
 						<h6 class="font-weight-medium">$@total</h6>
+						<input hidden asp-for="SubTotal" value="@total" />
 					</div>
 
 					<div class="d-flex justify-content-between">
 						<h6 class="font-weight-medium">Phí giao hàng</h6>
 						<h6 class="font-weight-medium">$0</h6>
+						<input hidden asp-for="FeeShipping" value="0" />
 					</div>
 				</div>
 				<div class="card-footer border-secondary bg-transparent">
 					<div class="d-flex justify-content-between mt-2">
 						<h5 class="font-weight-bold">Tổng tiền</h5>
 						<h5 class="font-weight-bold">$@total</h5>
+						<input hidden asp-for="Total" value="@(total)" />
 					</div>
 				</div>
 			</div>
@@ -110,10 +113,10 @@
 				</div>
 				<!-- Đặt hàng -->
 				<div class="card-footer border-secondary bg-transparent">
-					<button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Đặt hàng</button>
+					<input type="submit" value="Đặt hàng" class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3"/>
 				</div>
 			</div>
 		</div>
-	</div>
+	</form>
 </div>
 <!-- Checkout End -->

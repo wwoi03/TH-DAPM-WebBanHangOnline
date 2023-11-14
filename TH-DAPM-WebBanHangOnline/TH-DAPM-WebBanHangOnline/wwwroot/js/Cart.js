@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Main
     function main() {
-        checkout();
+        //checkout();
     }
 
     // thanh toán

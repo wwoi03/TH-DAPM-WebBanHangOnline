@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using System.Threading.Tasks.Dataflow;
 using TH_DAPM_WebBanHangOnline.Models;
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
+using TH_DAPM_WebBanHangOnline.Models.ViewModel;
 
 namespace TH_DAPM_WebBanHangOnline.Controllers
 {
@@ -98,25 +99,46 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         }
 
         // Thanh toán
-        public IActionResult Checkout(string productCheckout)
+        public IActionResult Checkout()
         {
             // lấy danh sách loại sản phẩm
             ViewBag.categories = dbHelper.GetCategories();
 
-            // chuyển đổi chuỗi Json thành mảng
-            List<string> listCartId = JsonConvert.DeserializeObject<List<string>>(productCheckout);
-
-            // lấy các sản phẩm trong giỏ hàng cần thanh toán
-            List<Cart> listCart = new List<Cart>();
-
-            for (int i = 0; i < listCartId.Count; i++)
-            {
-                listCart.Add(dbHelper.GetCartById(int.Parse(listCartId[i])));
-            }
-
-            ViewBag.listCart = listCart;
+            // lấy sản phẩm trong giỏ hàng
+            ViewBag.listCartCheckout = dbHelper.GetMyCartByCustomerId((int)HttpContext.Session.GetInt32("CustomerId"));
 
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Checkout(OrderViewModel orderViewModel)
+        {
+            ModelState.Remove("OrderId");
+            ModelState.Remove("CustomerId");
+            ModelState.Remove("Customer");
+            ModelState.Remove("OrderDay");
+            ModelState.Remove("Status");
+
+            // lấy danh sách loại sản phẩm
+            ViewBag.categories = dbHelper.GetCategories();
+
+            // lấy sản phẩm trong giỏ hàng
+            ViewBag.listCartCheckout = dbHelper.GetMyCartByCustomerId((int)HttpContext.Session.GetInt32("CustomerId"));
+
+            if (ModelState.IsValid)
+            {
+                orderViewModel.CustomerId = (int)HttpContext.Session.GetInt32("CustomerId");
+
+                Order order = orderViewModel.ConvertOrder();
+
+                dbHelper.CreateOrder(order, ViewBag.listCartCheckout);
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(orderViewModel);
+            }
         }
     }
 }

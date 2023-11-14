@@ -10,7 +10,7 @@
 			<table class="table table-bordered text-center mb-0">
 				<thead class="bg-secondary text-dark">
 					<tr>
-						<th>Chọn</th>
+						@*<th>Chọn</th>*@
 						<th>Hình ảnh</th>
 						<th>Sản phẩm</th>
 						<th>Giá</th>
@@ -25,9 +25,9 @@
 						var total = item.Product.Price * @item.Quantity;
 
 						<tr>
-							<td class="align-middle">
+							@*<td class="align-middle">
 								<input class="choose-cart" value="@item.CartId" type="checkbox" value="" style="width: 30px; height: 30px"/>
-							</td>
+							</td>*@
 							<td class="align-middle"><img src="../../img/@item.Product.Image" alt="" style="width: 80px;"></td>
 							<td class="align-middle" style="text-align: left">@item.Product.Name</td>
 							<td id="item-price" class="align-middle">@item.Product.Price</td>
@@ -89,7 +89,7 @@
 						<h5 class="font-weight-bold">Tổng tiền</h5>
 						<h5 class="font-weight-bold">$160</h5>
 					</div>
-					<a class="btn btn-block btn-primary my-3 py-3" id="checkout-btn">Thanh toán</a>
+					<a asp-controller="CartCustomer" asp-action="Checkout" class="btn btn-block btn-primary my-3 py-3" id="checkout-btn">Thanh toán</a>
 				</div>
 			</div>
 		</div>
