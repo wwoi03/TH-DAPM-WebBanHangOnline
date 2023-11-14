@@ -211,5 +211,38 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             return dbContext.AdminUsers.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
         }
+
+
+
+        //-----------------------------------------------------NHÀ SẢN XUẤT-----------------------------------------
+        //lấy danh sách nhà sản xuất
+        public List<Producer> GetProducers()
+        {
+            return dbContext.Producers.ToList();
+        }
+
+        //lấy nhà sản xuất theo id
+        public Producer GetProducerById(int id)
+        {
+            return dbContext.Producers.FirstOrDefault(p => p.ProducerId==id);
+        }
+        //update nhà sản xuất
+        public void UpdateProducer(Producer producer)
+        {
+            dbContext.Update(producer);
+            dbContext.SaveChanges();
+        }
+        //tạo 
+        public void CreateProducer(Producer producer)
+        {
+            dbContext.Producers.Add(producer);
+            dbContext.SaveChanges();
+        }
+
+        public void DeleteProducer(int id)
+        {
+            dbContext.Producers.Remove(GetProducerById(id));
+            dbContext.SaveChanges();
+        }
     }
 }
