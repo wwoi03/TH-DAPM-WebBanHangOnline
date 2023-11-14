@@ -1,28 +1,63 @@
-﻿main();
+﻿document.addEventListener('DOMContentLoaded', function () {
 
-function main() {
-    createCategory();
-    updateCategory();
-}
+    main();
 
-// tạo dịch vụ
-function createCategory() {
-    var formAddBtn = document.querySelector('#form-add-btn');
-
-    if (formAddBtn != null) {
-        formAddBtn.addEventListener('click', function () {
-            document.querySelector('#form-add').submit();
-        });
+    function main() {
+        openFormCreate();
+        updateCategory();
     }
-}
 
-// sửa dịch vụ
-function updateCategory() {
-    var formEditBtn = document.querySelector('#form-edit-btn');
+    // hiển thị form thêm
+    function openFormCreate() {
+        var openFormCreate = document.getElementById('open-form-create');
 
-    if (formEditBtn != null) {
-        formEditBtn.addEventListener('click', function () {
-            document.querySelector('#form-edit').submit();
-        });
+        if (openFormCreate != null) {
+            openFormCreate.addEventListener('click', function () {
+                $.ajax({
+                    url: '/CategoriesAdmin/Create',
+                    type: 'get',
+                    success: function (data) {
+                        $('#form-container').html(data);
+
+                        createCategory();
+                    }
+                })
+            });
+        }
+
     }
-}
+
+    // tạo dịch vụ
+    function createCategory() {
+        var formAddBtn = document.querySelector('#form-add-btn');
+
+        if (formAddBtn != null) {
+            formAddBtn.addEventListener('click', function () {
+
+                var dataViewModel = {
+                    Name: $('#category-name').val()
+                }
+
+                $.ajax({
+                    url: '/CategoriesAdmin/Create',
+                    type: 'post',
+                    data: dataViewModel,
+                    success: function (data) {
+                        $('#form-container').html(data);
+                    }
+                })
+            });
+        }
+    }
+
+    // sửa dịch vụ
+    function updateCategory() {
+        var formEditBtn = document.querySelector('#form-edit-btn');
+
+        if (formEditBtn != null) {
+            formEditBtn.addEventListener('click', function () {
+                document.querySelector('#form-edit').submit();
+            });
+        }
+    }
+});

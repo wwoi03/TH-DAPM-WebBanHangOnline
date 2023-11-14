@@ -31,7 +31,8 @@
         position: absolute;
         right: 12px;
     }
-/*
-.form-edit-container {
-    display: none;
-}*/
+
+.form-edit-container,
+.form-add-container {
+    display: block;
+}
