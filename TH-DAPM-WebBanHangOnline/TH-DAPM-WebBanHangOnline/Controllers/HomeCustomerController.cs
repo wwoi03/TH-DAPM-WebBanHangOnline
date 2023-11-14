@@ -91,5 +91,11 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
             return RedirectToAction("ProductDetails", new { productId = commentViewModel.ProductId });
         }
+        //tìm kiếm sản phẩm
+        public IActionResult SearchProduct(string valuesSearch)
+        {
+
+            return View();
+        }
     }
 }
