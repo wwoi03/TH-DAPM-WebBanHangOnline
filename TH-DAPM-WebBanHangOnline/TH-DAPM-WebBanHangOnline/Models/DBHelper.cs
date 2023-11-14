@@ -71,7 +71,13 @@ namespace TH_DAPM_WebBanHangOnline.Models
         // lấy danh sách order
         public List<Order> GetOrderByCustomerId(int customerId)
         {
-            return dbContext.Orders.Include(item => item.Customer).Where(item => item.CustomerId == customerId).ToList();
+            return dbContext.Orders.Include(item => item.Customer).Where(item => item.CustomerId == customerId).OrderByDescending(item => item.OrderId).ToList();
+        }
+
+        // lấy danh sách chi tiết đơn hàng theo orderid
+        public List<OrderDetails> GetListOrderDetailsByOrderId(int orderId)
+        {
+            return dbContext.OrderDetails.Include(item => item.Product).Include(item => item.Order).Where(item => item.OrderId == orderId).ToList();
         }
 
         // đặt hàng

@@ -1,6 +1,7 @@
 ﻿@{
 	Layout = "~/Views/Shared/_CustomerLayout.cshtml";
 	var carts = ViewBag.carts;
+	double total = 0;
 }
 
 <!-- Cart Start -->
@@ -22,7 +23,7 @@
 				<tbody class="align-middle">
 					@foreach (var item in carts)
 					{
-						var total = item.Product.Price * @item.Quantity;
+						total += item.Product.Price * @item.Quantity;
 
 						<tr>
 							@*<td class="align-middle">
@@ -48,7 +49,7 @@
 									</div>
 								</div>
 							</td>
-							<td class="align-middle" id="total-@item.CartId">@total</td>
+							<td class="align-middle" id="total-@item.CartId">@(item.Product.Price * item.Quantity)</td>
 							<td class="align-middle">
 								<a asp-controller="CartCustomer" asp-action="Delete" asp-route-cartId="@item.CartId" class="btn btn-sm btn-primary">
 									<i class="fa fa-times"></i>
@@ -77,7 +78,7 @@
 				<div class="card-body">
 					<div class="d-flex justify-content-between mb-3 pt-1">
 						<h6 class="font-weight-medium">Tổng phụ</h6>
-						<h6 class="font-weight-medium">$150</h6>
+						<h6 class="font-weight-medium">$@total</h6>
 					</div>
 					<div class="d-flex justify-content-between">
 						<h6 class="font-weight-medium">Phí giao hàng</h6>
@@ -87,7 +88,7 @@
 				<div class="card-footer border-secondary bg-transparent">
 					<div class="d-flex justify-content-between mt-2">
 						<h5 class="font-weight-bold">Tổng tiền</h5>
-						<h5 class="font-weight-bold">$160</h5>
+						<h5 class="font-weight-bold">$@total</h5>
 					</div>
 					<a asp-controller="CartCustomer" asp-action="Checkout" class="btn btn-block btn-primary my-3 py-3" id="checkout-btn">Thanh toán</a>
 				</div>

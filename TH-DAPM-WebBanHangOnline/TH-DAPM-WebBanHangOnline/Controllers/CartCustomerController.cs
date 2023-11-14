@@ -19,10 +19,18 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // hiển thị danh sách sản phẩm trong giỏ hàng
         public IActionResult Index()
         {
-            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
-            ViewBag.categories = dbHelper.GetCategories();
-            ViewBag.carts = dbHelper.GetMyCartByCustomerId(HttpContext.Session.GetInt32("CustomerId"));
-            return View();
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Customer");
+            } 
+            else
+            {
+                HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
+                ViewBag.categories = dbHelper.GetCategories();
+                ViewBag.carts = dbHelper.GetMyCartByCustomerId(HttpContext.Session.GetInt32("CustomerId"));
+
+                return View();
+            }
         }
 
         // xóa sản phẩm trong giỏ hàng
@@ -101,11 +109,21 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // Thanh toán
         public IActionResult Checkout()
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Customer");
+            }
+
             // lấy danh sách loại sản phẩm
             ViewBag.categories = dbHelper.GetCategories();
 
             // lấy sản phẩm trong giỏ hàng
             ViewBag.listCartCheckout = dbHelper.GetMyCartByCustomerId((int)HttpContext.Session.GetInt32("CustomerId"));
+
+            if (ViewBag.listCartCheckout.Count == 0)
+            {
+                return RedirectToAction("Index");
+            }
 
             return View();
         }
@@ -133,7 +151,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
                 dbHelper.CreateOrder(order, ViewBag.listCartCheckout);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "OrderCustomer");
             }
             else
             {
