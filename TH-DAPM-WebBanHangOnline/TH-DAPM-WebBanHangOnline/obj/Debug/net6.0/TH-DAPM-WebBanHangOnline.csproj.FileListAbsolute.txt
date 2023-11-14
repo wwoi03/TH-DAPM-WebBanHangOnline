@@ -255,3 +255,4 @@ D:\DaiHoc\NAM3\TH_DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM
 D:\DaiHoc\NAM3\TH_DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\obj\Debug\net6.0\TH-DAPM-WebBanHangOnline.genruntimeconfig.cache
 D:\DaiHoc\NAM3\TH_DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\obj\Debug\net6.0\ref\TH-DAPM-WebBanHangOnline.dll
 D:\DaiHoc\NAM3\TH_DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Huflit_Study_Material\Exercises\3rd_Year_Exercises\DAPM\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\TH-DAPM-WebBanHangOnline\bin\Debug\net6.0\Newtonsoft.Json.dll
