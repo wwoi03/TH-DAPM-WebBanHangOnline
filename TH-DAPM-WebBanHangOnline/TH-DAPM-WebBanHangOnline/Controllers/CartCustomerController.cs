@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Threading.Tasks.Dataflow;
 using TH_DAPM_WebBanHangOnline.Models;
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
@@ -17,6 +18,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // hiển thị danh sách sản phẩm trong giỏ hàng
         public IActionResult Index()
         {
+            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
             ViewBag.categories = dbHelper.GetCategories();
             ViewBag.carts = dbHelper.GetMyCartByCustomerId(HttpContext.Session.GetInt32("CustomerId"));
             return View();
@@ -27,7 +29,6 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         {
             dbHelper.DeleteProductInCart(cartId);
 
-            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
 
             return RedirectToAction("Index");
         }
@@ -97,9 +98,24 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         }
 
         // Thanh toán
-        [HttpPost]
-        public IActionResult Checkout(string[] productCheckout)
+        public IActionResult Checkout(string productCheckout)
         {
+            // lấy danh sách loại sản phẩm
+            ViewBag.categories = dbHelper.GetCategories();
+
+            // chuyển đổi chuỗi Json thành mảng
+            List<string> listCartId = JsonConvert.DeserializeObject<List<string>>(productCheckout);
+
+            // lấy các sản phẩm trong giỏ hàng cần thanh toán
+            List<Cart> listCart = new List<Cart>();
+
+            for (int i = 0; i < listCartId.Count; i++)
+            {
+                listCart.Add(dbHelper.GetCartById(int.Parse(listCartId[i])));
+            }
+
+            ViewBag.listCart = listCart;
+
             return View();
         }
     }

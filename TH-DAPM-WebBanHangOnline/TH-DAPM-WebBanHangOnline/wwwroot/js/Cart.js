@@ -78,17 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (checkoutBtn != null) {
             checkoutBtn.addEventListener('click', function () {
-                $.ajax({
-                    url: '../../CartCustomer/Checkout/',
-                    type: 'POST',
-                    data: { productCheckout: JSON.stringify(listCartCheckout) },
-                    success: function (data) {
-
-                    },
-                    error: function (error) {
-
-                    }
-                });
+                window.location.href = '/CartCustomer/Checkout?productCheckout=' + JSON.stringify(listCartCheckout);
             });
         }
     }

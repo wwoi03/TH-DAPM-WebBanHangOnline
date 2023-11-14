@@ -1,157 +1,86 @@
-﻿@{
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
 	Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+	var listCart = ViewBag.listCart;
+	double total = 0;
+	var orderDate = (DateTime.Now).ToString("dd/MM/yyyy");
 }
+@model OrderViewModel;
 
 <!-- Checkout Start -->
 <div class="container-fluid pt-5">
 	<div class="row px-xl-5">
+		<!-- Thanh toán -->
 		<div class="col-lg-8">
-			<div class="mb-4">
-				<h4 class="font-weight-semi-bold mb-4">Billing Address</h4>
+			<form class="mb-4">
+				<h4 class="font-weight-semi-bold mb-4">Địa chỉ thanh toán</h4>
 				<div class="row">
+					<!-- Tên người nhận -->
 					<div class="col-md-6 form-group">
-						<label>First Name</label>
-						<input class="form-control" type="text" placeholder="John">
+						<label>Tên người nhận</label>
+						<input asp-for="RecipientName" class="form-control" type="text" placeholder="John">
+						<span asp-validation-for="@Model.RecipientName" class="text-danger"></span>
 					</div>
+
+					<!-- Số điện thoại -->
 					<div class="col-md-6 form-group">
-						<label>Last Name</label>
-						<input class="form-control" type="text" placeholder="Doe">
+						<label>Số điện thoại người nhận</label>
+						<input asp-for="Phone" class="form-control" type="text" placeholder="+123 456 789">
+						<span asp-validation-for="@Model.Phone" class="text-danger"></span>
 					</div>
+
+					<!-- Địa chỉ -->
 					<div class="col-md-6 form-group">
-						<label>E-mail</label>
-						<input class="form-control" type="text" placeholder="example@email.com">
+						<label>Địa chỉ nhận hàng</label>
+						<input asp-for="AddressDelivery" class="form-control" type="text" placeholder="123 Street">
+						<span asp-validation-for="@Model.AddressDelivery" class="text-danger"></span>
 					</div>
+
+					<!-- Ngày thanh toán -->
 					<div class="col-md-6 form-group">
-						<label>Mobile No</label>
-						<input class="form-control" type="text" placeholder="+123 456 789">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Address Line 1</label>
-						<input class="form-control" type="text" placeholder="123 Street">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Address Line 2</label>
-						<input class="form-control" type="text" placeholder="123 Street">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Country</label>
-						<select class="custom-select">
-							<option selected>United States</option>
-							<option>Afghanistan</option>
-							<option>Albania</option>
-							<option>Algeria</option>
-						</select>
-					</div>
-					<div class="col-md-6 form-group">
-						<label>City</label>
-						<input class="form-control" type="text" placeholder="New York">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>State</label>
-						<input class="form-control" type="text" placeholder="New York">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>ZIP Code</label>
-						<input class="form-control" type="text" placeholder="123">
-					</div>
-					<div class="col-md-12 form-group">
-						<div class="custom-control custom-checkbox">
-							<input type="checkbox" class="custom-control-input" id="newaccount">
-							<label class="custom-control-label" for="newaccount">Create an account</label>
-						</div>
-					</div>
-					<div class="col-md-12 form-group">
-						<div class="custom-control custom-checkbox">
-							<input type="checkbox" class="custom-control-input" id="shipto">
-							<label class="custom-control-label" for="shipto" data-toggle="collapse" data-target="#shipping-address">Ship to different address</label>
-						</div>
+						<label>Ngày thanh toán</label>
+						<input class="form-control" type="text" readonly value="@orderDate">
 					</div>
 				</div>
-			</div>
-			<div class="collapse mb-4" id="shipping-address">
-				<h4 class="font-weight-semi-bold mb-4">Shipping Address</h4>
-				<div class="row">
-					<div class="col-md-6 form-group">
-						<label>First Name</label>
-						<input class="form-control" type="text" placeholder="John">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Last Name</label>
-						<input class="form-control" type="text" placeholder="Doe">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>E-mail</label>
-						<input class="form-control" type="text" placeholder="example@email.com">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Mobile No</label>
-						<input class="form-control" type="text" placeholder="+123 456 789">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Address Line 1</label>
-						<input class="form-control" type="text" placeholder="123 Street">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Address Line 2</label>
-						<input class="form-control" type="text" placeholder="123 Street">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>Country</label>
-						<select class="custom-select">
-							<option selected>United States</option>
-							<option>Afghanistan</option>
-							<option>Albania</option>
-							<option>Algeria</option>
-						</select>
-					</div>
-					<div class="col-md-6 form-group">
-						<label>City</label>
-						<input class="form-control" type="text" placeholder="New York">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>State</label>
-						<input class="form-control" type="text" placeholder="New York">
-					</div>
-					<div class="col-md-6 form-group">
-						<label>ZIP Code</label>
-						<input class="form-control" type="text" placeholder="123">
-					</div>
-				</div>
-			</div>
+			</form>
 		</div>
+
+		<!-- Chi tiết đơn hàng -->
 		<div class="col-lg-4">
 			<div class="card border-secondary mb-5">
 				<div class="card-header bg-secondary border-0">
 					<h4 class="font-weight-semi-bold m-0">Order Total</h4>
 				</div>
 				<div class="card-body">
-					<h5 class="font-weight-medium mb-3">Products</h5>
-					<div class="d-flex justify-content-between">
-						<p>Colorful Stylish Shirt 1</p>
-						<p>$150</p>
-					</div>
-					<div class="d-flex justify-content-between">
-						<p>Colorful Stylish Shirt 2</p>
-						<p>$150</p>
-					</div>
-					<div class="d-flex justify-content-between">
-						<p>Colorful Stylish Shirt 3</p>
-						<p>$150</p>
-					</div>
+					<!-- danh sách sản phẩm -->
+					<h5 class="font-weight-medium mb-3">Sản phẩm</h5>
+					@foreach(var item in listCart)
+					{
+						total += item.Quantity * item.Product.Price;
+
+						<div class="d-flex justify-content-between">
+							<p>@item.Product.Name (x@(item.Quantity))</p>
+							<p>$@(item.Quantity * item.Product.Price)</p>
+						</div>
+					}
+
 					<hr class="mt-0">
+
+					<!-- Tổng tiền -->
 					<div class="d-flex justify-content-between mb-3 pt-1">
-						<h6 class="font-weight-medium">Subtotal</h6>
-						<h6 class="font-weight-medium">$150</h6>
+						<h6 class="font-weight-medium">Tổng phụ</h6>
+						<h6 class="font-weight-medium">$@total</h6>
 					</div>
+
 					<div class="d-flex justify-content-between">
-						<h6 class="font-weight-medium">Shipping</h6>
-						<h6 class="font-weight-medium">$10</h6>
+						<h6 class="font-weight-medium">Phí giao hàng</h6>
+						<h6 class="font-weight-medium">$0</h6>
 					</div>
 				</div>
 				<div class="card-footer border-secondary bg-transparent">
 					<div class="d-flex justify-content-between mt-2">
-						<h5 class="font-weight-bold">Total</h5>
-						<h5 class="font-weight-bold">$160</h5>
+						<h5 class="font-weight-bold">Tổng tiền</h5>
+						<h5 class="font-weight-bold">$@total</h5>
 					</div>
 				</div>
 			</div>
@@ -179,8 +108,9 @@
 						</div>
 					</div>
 				</div>
+				<!-- Đặt hàng -->
 				<div class="card-footer border-secondary bg-transparent">
-					<button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Place Order</button>
+					<button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Đặt hàng</button>
 				</div>
 			</div>
 		</div>
