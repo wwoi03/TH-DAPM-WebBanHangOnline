@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using TH_DAPM_WebBanHangOnline.Models;
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
@@ -53,8 +55,11 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         // Danh sách sản phẩm theo loại
         public IActionResult ListProductByCategory(int id)
         {
+            HttpContext.Session.Remove("Categoryid");
+            HttpContext.Session.SetInt32("Categoryid", id);
             List<Product> listpro = dbHelper.GetProductsByType(id);
             // Chuyển đổi danh sách sản phẩm sang danh sách ViewModel
+
             List<ProductsViewModel> productsViewModel = new List<ProductsViewModel>();
             foreach (var pro in listpro)
             {
@@ -92,5 +97,67 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
             return RedirectToAction("ProductDetails", new { productId = commentViewModel.ProductId });
         }
+        //tìm kiếm sản phẩm
+        public IActionResult SearchProduct(string valuesSearch)
+        {
+            HttpContext.Session.Remove("SearchProductResult");
+            ViewBag.categories = dbHelper.GetCategories();
+            List<Product> products = dbHelper.GetListProductByName(valuesSearch);
+            HttpContext.Session.SetString("SearchProductResult", valuesSearch);
+            ViewData["ResultSeacrchPro"] = products.Select(item => new ProductsViewModel
+            {
+                ProductId = item.ProductId,
+                Name = item.Name,
+                Price = item.Price,
+                Description = item.Description,
+                Image=item.Image,
+                CategoryName=item.Category.Name
+            }).ToList();
+           
+            return View();
+        }
+
+
+
+        //sap xep theo gia san pham
+        [Route("/HomeCustomer/SortProByPrice/{price}")]
+        public IActionResult SortProByPrice(int price)
+        {
+            List<Product> products= new List<Product>();
+            ViewBag.categories = dbHelper.GetCategories();
+            if (HttpContext.Session.GetString("SearchProductResult") != null)
+            {
+               products = dbHelper.GetListProductByName(HttpContext.Session.GetString("SearchProductResult"));
+            }
+            else
+            {
+                products = dbHelper.GetProductsByType((int)HttpContext.Session.GetInt32("Categoryid"));
+            }               
+                // Sort the product list by price         
+                if (price == 1)
+                products= products.Where(p => p.Price <= 30 && p.Price > 0).ToList();
+                else if (price == 2)
+                products = products.Where(p => p.Price <= 60 && p.Price >= 30).ToList();
+                else if (price == 3)
+                products = products.Where(p => p.Price <= 90 && p.Price >= 60).ToList();
+                else
+                products = products.Where(p => p.Price >= 90).ToList();
+
+                ViewData["ResultSort"] = products.Select(item => new ProductsViewModel
+                {
+                    ProductId = item.ProductId,
+                    Name = item.Name,
+                    Price = item.Price,
+                    Description = item.Description,
+                    Image = item.Image,
+                    CategoryName = item.Category.Name
+                }).ToList();
+
+                return PartialView("SortProByPrice");
+            
+           
+        }
+
+
     }
 }

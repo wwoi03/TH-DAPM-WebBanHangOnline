@@ -1,16 +1,15 @@
-﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel;
 @{
-	var listpro = ViewData["listprotype"] as IEnumerable<ProductsViewModel>;
-	Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    var listpro = ViewData["ResultSeacrchPro"] as IEnumerable<ProductsViewModel>;
+   
 }
-
-
 
 <!-- Shop Start -->
 <div class="container-fluid pt-5">
-	<div class="row px-xl-5">
-		<!-- Shop Sidebar Start -->
-		<div class="col-lg-3 col-md-12">
+    <div class="row px-xl-5">
+        <!-- Shop Sidebar Start -->
+        <div class="col-lg-3 col-md-12">
             <!-- Sắp xếp theo giá -->
             <div class="border-bottom mb-4 pb-4">
                 <h5 class="font-weight-semi-bold mb-4">Sắp xếp theo giá</h5>
@@ -35,64 +34,55 @@
                         <label class="custom-control-label" for="price-4">>$90</label>
                     </div>
                 </form>
+
             </div>
 
-			<!-- Sắp xếp theo lượt bán -->
-			<div class="border-bottom mb-4 pb-4">
-				<h5 class="font-weight-semi-bold mb-4">Color</h5>
-                <form id="priceFilterForm">
-                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
-                        <input type="radio" class="custom-control-input" name="price" id="price-1">
-                        <label class="custom-control-label" for="price-1">$0 - $30</label>
+            <!-- Sắp xếp theo lượt bán -->
+           @*  <div class="border-bottom mb-4 pb-4">
+                <h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
+                <form>
+                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <input type="checkbox" class="custom-control-input" checked id="color-all">
+                        <label class="custom-control-label" for="price-all">All Color</label>
+                        <span class="badge border font-weight-normal">1000</span>
                     </div>
-
-                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
-                        <input type="radio" class="custom-control-input" name="price" id="price-2">
-                        <label class="custom-control-label" for="price-2">$30 - $60</label>
-                    </div>
-
-                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
-                        <input type="radio" class="custom-control-input" name="price" id="price-3">
-                        <label class="custom-control-label" for="price-3">$60 - $90</label>
-                    </div>
-
-                    <div class="custom-control custom-radio d-flex align-items-center justify-content-between mb-3">
-                        <input type="radio" class="custom-control-input" name="price" id="price-4">
-                        <label class="custom-control-label" for="price-4">>$90</label>
+                    <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                        <input type="checkbox" class="custom-control-input" id="color-1">
+                        <label class="custom-control-label" for="color-1">Black</label>
+                        <span class="badge border font-weight-normal">150</span>
                     </div>
                 </form>
-			</div>
-		</div>
-		<!-- Shop Sidebar End -->
-
-		<!-- Shop Product Start -->
-            <div class="col-lg-9 col-md-12">
-            <div class="row pb-3" id="ListProSort1">
-                    <div class="col-12 pb-1">
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <form action="">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search by name">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text bg-transparent text-primary">
-                                            <i class="fa fa-search"></i>
-                                        </span>
-                                    </div>
+            </div> *@
+        </div>
+        <!-- Shop Sidebar End -->
+        <!-- Shop Product Start -->
+        <div class="col-lg-9 col-md-12">
+            <div class="row pb-3 " id="ListProSort1">
+              @*   <div class="col-12 pb-1">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search by name">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-transparent text-primary">
+                                        <i class="fa fa-search"></i>
+                                    </span>
                                 </div>
-                            </form>
-                            <div class="dropdown ml-4">
-                                <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                            Sort by
-                                        </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
-                                    <a class="dropdown-item" href="#">Latest</a>
-                                    <a class="dropdown-item" href="#">Popularity</a>
-                                    <a class="dropdown-item" href="#">Best Rating</a>
-                                </div>
+                            </div>
+                        </form>
+                        <div class="dropdown ml-4">
+                            <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                Sort by
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">Latest</a>
+                                <a class="dropdown-item" href="#">Popularity</a>
+                                <a class="dropdown-item" href="#">Best Rating</a>
                             </div>
                         </div>
                     </div>
+                </div> *@
 
                 @foreach (var item in listpro)
                 {
@@ -117,13 +107,14 @@
                     </div>
                 }
 
-
+                
             </div>
             <div id="ListProSort">
+
             </div>
-            </div>
-            <!-- Shop Product End -->
-	</div>
+        </div>
+        <!-- Shop Product End -->
+    </div>
 </div>
 <script src="/js/SortProductByPrice.js"></script>
 <!-- Shop End -->

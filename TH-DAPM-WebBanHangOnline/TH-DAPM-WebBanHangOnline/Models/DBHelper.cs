@@ -124,6 +124,22 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return dbContext.Products.Include(p => p.Producer).Include(p => p.Category).FirstOrDefault(p => p.ProductId == productId);
         }
 
+        //------------------------------------------------------------THANH LỌC TỤI NÓ-----------------------------
+        //tìm kiếm sản phẩm
+        public List<Product> GetListProductByName(string name)
+        {
+            var query = dbContext.Products.Include(p => p.Category).AsQueryable();
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                query = query.Where(p => p.Name.Contains(name) || p.Category.Name.Contains(name));
+            }
+
+            return query.OrderByDescending(p => p.ProductId).ToList();
+        }
+
+     
+
         /* -------------------------- SẢN PHẨM TRANG BÁN -------------------------- */
         //lấy danh sách sản phẩm
         public List<Product> getProducts()
