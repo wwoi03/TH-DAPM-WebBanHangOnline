@@ -88,8 +88,10 @@
 					</li>
 
 					<li style="border-bottom: 1px solid #D8D8D8; margin-bottom: 16px"></li>
+
+					<!-- Sản phẩm -->
 					<li class="menu-item-has-children dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Đặt lịch hẹn</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Sản phẩm</a>
 						<ul class="sub-menu children dropdown-menu">
 							<li>
 								<i class="menu-icon fa fa-list-alt"></i>
@@ -292,11 +294,11 @@
 					<li class="menu-item-has-children dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-gear"></i>Quản trị hệ thống</a>
 						<ul class="sub-menu children dropdown-menu">
-
-							<!-- khách hàng -->
+							
+							<!-- Sản phẩm -->
 							<li>
-								<i class="menu-icon fa fa-users"></i>
-								<a asp-controller="Staff" asp-action="Index">Khách hàng</a>
+								<i class="menu-icon fa-solid fa-shirt"></i>
+								<a asp-controller="CategoriesAdmin" asp-action="Index">Sản phẩm</a>
 							</li>
 
 							<!-- Loại tài khoản -->
@@ -485,13 +487,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/flot-spline@0.0.1/js/jquery.flot.spline.min.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/simpleweather@3.1.0/jquery.simpleWeather.min.js"></script>
-	<script src="~/admin/assets/js/init/weather-init.js"></script>
+	@*<script src="~/admin/assets/js/init/weather-init.js"></script>*@
 
 	<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
-	<script src="~/admin/assets/js/init/fullcalendar-init.js"></script>
+	@*<script src="~/admin/assets/js/init/fullcalendar-init.js"></script>*@
 
-	<!--Local Stuff-->
+	@*<!--Local Stuff-->
 	<script>
 		jQuery(document).ready(function($) {
 			"use strict";
@@ -682,7 +684,7 @@
 			});
 			// Bar Chart #flotBarChart End
 		});
-	</script>
+	</script>*@
 </body>
 </html>
 

@@ -34,6 +34,13 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return carts;
         }
 
+        // tính số lưởng sản phẩm trong giỏ hàng
+        public int GetCountMyCart(int? customerId)
+        {
+            int countCart = dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).Where(c => c.CustomerId == customerId).ToList().Count;
+            return countCart;
+        }
+
         public Cart GetCartById(int cartId)
         {
             return dbContext.Carts.Include(c => c.Product).Include(c => c.Customer).FirstOrDefault(c => c.CartId == cartId);
@@ -119,6 +126,13 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             List<Category> categories = dbContext.Categories.ToList();
             return categories;
+        }
+
+        // thêm loại sản phẩm
+        public void CreateCategory(Category category)
+        {
+            dbContext.Categories.Add(category);
+            dbContext.SaveChanges();
         }
 
         public void AddItemToCart(Cart cart)

@@ -19,14 +19,14 @@
 						<th>Xóa</th>
 					</tr>
 				</thead>
-				<tbody hx-target="closest tr" hx-swap="outerHTML swap:1s" class="align-middle">
+				<tbody class="align-middle">
 					@foreach (var item in carts)
 					{
 						var total = item.Product.Price * @item.Quantity;
 
 						<tr>
 							<td class="align-middle">
-								<input type="checkbox" value="" style="width: 30px; height: 30px"/>
+								<input class="choose-cart" value="@item.CartId" type="checkbox" value="" style="width: 30px; height: 30px"/>
 							</td>
 							<td class="align-middle"><img src="../../img/@item.Product.Image" alt="" style="width: 80px;"></td>
 							<td class="align-middle" style="text-align: left">@item.Product.Name</td>
@@ -50,9 +50,9 @@
 							</td>
 							<td class="align-middle" id="total-@item.CartId">@total</td>
 							<td class="align-middle">
-								<button hx-delete="/CartCustomer/Delete/@item.CartId" class="btn btn-sm btn-primary">
+								<a asp-controller="CartCustomer" asp-action="Delete" asp-route-cartId="@item.CartId" class="btn btn-sm btn-primary">
 									<i class="fa fa-times"></i>
-								</button>
+								</a>
 							</td>
 						</tr>
 					}
@@ -60,14 +60,16 @@
 			</table>
 		</div>
 		<div class="col-lg-4">
-			<form class="mb-5" action="">
+			@*<form class="mb-5" action="">
 				<div class="input-group">
 					<input type="text" class="form-control p-4" placeholder="Coupon Code">
 					<div class="input-group-append">
 						<button class="btn btn-primary">Apply Coupon</button>
 					</div>
 				</div>
-			</form>
+			</form>*@
+
+			<!-- Thanh toán -->
 			<div class="card border-secondary mb-5">
 				<div class="card-header bg-secondary border-0">
 					<h4 class="font-weight-semi-bold m-0">Tóm tắt giỏ hàng</h4>
@@ -87,11 +89,12 @@
 						<h5 class="font-weight-bold">Tổng tiền</h5>
 						<h5 class="font-weight-bold">$160</h5>
 					</div>
-					<a class="btn btn-block btn-primary my-3 py-3" asp-controller="OrderCustomer" asp-action="Checkout">Thanh toán</a>
+					<a class="btn btn-block btn-primary my-3 py-3" id="checkout-btn">Thanh toán</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
 <script src="/js/Cart.js"></script>
 <!-- Cart End -->

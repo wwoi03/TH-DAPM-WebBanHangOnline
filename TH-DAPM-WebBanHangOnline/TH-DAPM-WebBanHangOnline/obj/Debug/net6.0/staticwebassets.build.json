@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jzScbnD5e55Z6gKgB2TgBb4+5vQjGw0Xp57RXl8+hvU=",
+  "Hash": "UoBxHvDNzsyKD2tCfNGLV31qxtgquogEERIobOQKEOA=",
   "Source": "TH-DAPM-WebBanHangOnline",
   "BasePath": "_content/TH-DAPM-WebBanHangOnline",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\fonts\\icomoon\\index.html"
+    },
+    {
+      "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\category.js",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "admin/assets/js/category.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\category.js"
     },
     {
       "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\dashboard.js",

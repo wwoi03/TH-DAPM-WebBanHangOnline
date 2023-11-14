@@ -53,6 +53,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                         HttpContext.Session.SetString("Email", customer.Email);
                         HttpContext.Session.SetString("Name", customer.Name);
                         HttpContext.Session.SetInt32("CustomerId", customer.CustomerId);
+                        HttpContext.Session.SetInt32("countFavourite", 0);
+                        HttpContext.Session.SetInt32("countCart", dbHelper.GetMyCartByCustomerId(customer.CustomerId).Count);
 
                         return RedirectToAction("HomePage", "HomeCustomer");
                     }

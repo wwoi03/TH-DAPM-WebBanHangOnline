@@ -1,4 +1,7 @@
-﻿<!-- Topbar Start -->
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+
+<!-- Topbar Start -->
 <div class="container-fluid">
 	<div class="row bg-secondary py-2 px-xl-5">
 		<div class="col-lg-6 d-none d-lg-block">
@@ -50,13 +53,13 @@
 			<!-- Sản phẩm yêu thích -->
 			<a href="" class="btn border">
 				<i class="fas fa-heart text-primary"></i>
-				<span class="badge">0</span>
+				<span class="badge">@Accessor.HttpContext.Session.GetInt32("countFavourite")</span>
 			</a>
 
 			<!-- Giỏ hàng -->
 			<a class="btn border" asp-controller="CartCustomer" asp-action="Index">
 				<i class="fas fa-shopping-cart text-primary"></i>
-				<span class="badge">0</span>
+				<span class="badge">@Accessor.HttpContext.Session.GetInt32("countCart")</span>
 			</a>
 		</div>
 	</div>

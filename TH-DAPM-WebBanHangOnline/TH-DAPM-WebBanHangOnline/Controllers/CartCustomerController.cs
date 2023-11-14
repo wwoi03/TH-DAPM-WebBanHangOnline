@@ -23,11 +23,13 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         }
 
         // xóa sản phẩm trong giỏ hàng
-        [HttpDelete]
-        public IActionResult Delete(string id)
+        public IActionResult Delete(int cartId)
         {
-            dbHelper.DeleteProductInCart(int.Parse(id));
-            return StatusCode(200);
+            dbHelper.DeleteProductInCart(cartId);
+
+            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
+
+            return RedirectToAction("Index");
         }
 		
 		public IActionResult AddToCart(int quantity = 1, int productid = -1)
@@ -48,8 +50,12 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             };
 
             dbHelper.AddItemToCart(cart);
+
+            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
+
             return RedirectToAction("Index");
         }
+
 		[Route("/CartCustomer/AddToCartToProductDetals/{productid}/{quantity}")]
 		public IActionResult AddToCartToProductDetals(int quantity = 1, int productid = -1)
         {
@@ -69,6 +75,9 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             };
 
             dbHelper.AddItemToCart(cart);
+
+            HttpContext.Session.SetInt32("countCart", dbHelper.GetCountMyCart((int)HttpContext.Session.GetInt32("CustomerId")));
+
             return Json(new { redirectUrl = Url.Action("Index", "CartCustomer") });
         }
 
@@ -81,11 +90,17 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
             double total;
             if(cartId!=0)
             {
-                
 				dbHelper.EditQuantityPro(cartId, quantity,out total);
 				return Json(total.ToString("0.00"));
 			}
             return Json("null");
+        }
+
+        // Thanh toán
+        [HttpPost]
+        public IActionResult Checkout(string[] productCheckout)
+        {
+            return View();
         }
     }
 }

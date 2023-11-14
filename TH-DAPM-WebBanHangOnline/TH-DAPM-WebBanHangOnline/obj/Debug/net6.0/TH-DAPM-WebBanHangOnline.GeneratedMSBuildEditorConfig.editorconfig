@@ -19,8 +19,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CartCustomer/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CartCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEN1c3RvbWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CategoriesAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/Customer/Login.cshtml]
@@ -41,10 +49,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/HomeCustomer/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUN1c3RvbWVyXFByb2R1Y3REZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/OrderCustomer/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDdXN0b21lclxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProductAdmin/Index.cshtml]

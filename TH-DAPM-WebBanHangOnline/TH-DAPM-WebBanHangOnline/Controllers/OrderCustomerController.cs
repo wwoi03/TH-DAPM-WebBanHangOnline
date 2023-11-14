@@ -8,10 +8,5 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
         {
             return View();
         }
-
-        public IActionResult Checkout()
-        {
-            return View();
-        }
     }
 }

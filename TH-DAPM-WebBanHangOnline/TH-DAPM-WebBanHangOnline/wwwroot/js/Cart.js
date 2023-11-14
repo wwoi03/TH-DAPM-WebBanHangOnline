@@ -18,7 +18,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     EditQuantityCard();
 
-
     function EditQuantityCard() {
         
         var btnMinus = document.querySelectorAll('.btn-minus');
@@ -60,11 +59,54 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
-    
+
+
+    main();
+
+    // Main
+    function main() {
+        checkout();
+    }
+
+    // thanh toán
+    function checkout() {
+        var listCartCheckout = [];
+
+        onClickChooseCart(listCartCheckout);
+
+        var checkoutBtn = document.getElementById('checkout-btn');
+
+        if (checkoutBtn != null) {
+            checkoutBtn.addEventListener('click', function () {
+                $.ajax({
+                    url: '../../CartCustomer/Checkout/',
+                    type: 'POST',
+                    data: { productCheckout: JSON.stringify(listCartCheckout) },
+                    success: function (data) {
+
+                    },
+                    error: function (error) {
+
+                    }
+                });
+            });
+        }
+    }
+
+    // chọn sản phẩm cần thanh toán
+    function onClickChooseCart(listCartCheckout) {
+        var chooseCart = document.querySelectorAll(".choose-cart");
+
+        if (chooseCart != null) {
+            chooseCart.forEach((item, index) => {
+                item.addEventListener('click', function () {
+                    if (item.checked) {
+                        listCartCheckout.push(item.getAttribute('value'));
+                    } else {
+                        listCartCheckout.splice(listCartCheckout.indexOf(item.getAttribute('value')), 1)
+                    }
+                });
+            })
+        }
+    }
 });
-
-
-
-
-
-
