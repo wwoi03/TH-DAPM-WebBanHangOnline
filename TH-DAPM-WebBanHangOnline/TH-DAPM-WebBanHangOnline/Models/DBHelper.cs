@@ -189,5 +189,11 @@ namespace TH_DAPM_WebBanHangOnline.Models
             dbContext.Carts.Add(cart);
             dbContext.SaveChanges();
         }
+
+        /* -------------------------- Admin -------------------------- */
+        public AdminUser LoginAdmin(string email, string password)
+        {
+            return dbContext.AdminUsers.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+        }
     }
 }
