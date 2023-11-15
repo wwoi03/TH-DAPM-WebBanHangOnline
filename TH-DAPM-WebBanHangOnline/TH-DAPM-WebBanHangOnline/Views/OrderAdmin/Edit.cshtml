@@ -1,0 +1,200 @@
+﻿@using Newtonsoft.Json
+@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	var orderDetails = ViewBag.orderDetails;
+}
+
+<div>
+	<!-- Start: BreadCrumbsPartial -->
+	@Html.Partial("_BreadCrumbsPartial")
+	<!-- End: BreadCrumbsPartial -->
+	<!-- Render -->
+	<div class="animated fadeIn">
+		<div class="row">
+			<!-- Danh sách -->
+			<div class="col-lg-12">
+				<div class="form-edit-container">
+					<div class="card">
+						<form id="form-edit" asp-controller="OrderAdmin" asp-action="Edit" method="post">
+							<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+								<b>@ViewBag.titleAction</b>
+
+								<!-- Chỉnh sửa -->
+								<a id="form-edit-btn" class="btn btn-sm color-white" style="background: #007BFF !important">
+									<i class="fa fa-save"></i>
+									&nbsp;Cập nhật
+								</a>
+
+								<input name="Status" hidden value="@orderDetails[0].Order.Status" id="status-current" />
+								<input name="orderId" hidden value="@orderDetails[0].OrderId" id="status-current" />
+							</div>
+
+							<!-- Form nhập -->
+							<div class="card-body card-block">
+								<div class="form-horizontal">
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tên người nhận</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.RecipientName</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Số điện thoại</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.Phone</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Địa chỉ giao hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.AddressDeliverry</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+                                        <div class="col col-md-3"><label class=" form-control-label">Sản phẩm</label></div>
+                                        <div class="col col-md-9">
+											@foreach (var item in orderDetails)
+											{
+												<div>
+													<label class="form-check-label ">
+														@item.Product.Name - (x@(item.Quantity)) - $@item.Total
+													</label>
+												</div>
+											}
+                                        </div>
+                                    </div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Phí giao hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.FeeShipping</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tổng phụ</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.SubTotal</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tổng tiền</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.Total</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Ngày đặt hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.OrderDay.ToString("dd/MM/yyyy")</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+                                        <div class="col col-md-3"><label class=" form-control-label">Tình trạng đơn hàng</label></div>
+
+                                        <div class="col col-md-9">
+                                            <div class="form-check">
+                                                <div class="radio">
+                                                    <label for="radio1" class="form-check-label">
+                                                        <input type="radio" id="radio1" name="radios" value="Đang chờ xác nhận" class="status-checkbox form-check-input">Đang chờ xác nhận
+                                                    </label>
+                                                </div>
+
+                                                <div class="radio">
+                                                    <label for="radio2" class="form-check-label ">
+                                                        <input type="radio" id="radio2" name="radios" value="Đơn hàng đang được chuẩn bị" class="status-checkbox form-check-input">Đơn hàng đang được chuẩn bị
+                                                    </label>
+                                                </div>
+
+                                                <div class="radio">
+                                                    <label for="radio3" class="form-check-label ">
+                                                        <input type="radio" id="radio3" name="radios" value="Đơn hàng đang giao" class="status-checkbox form-check-input">Đơn hàng đang giao
+                                                    </label>
+                                                </div>
+
+												<div class="radio">
+                                                    <label for="radio3" class="form-check-label ">
+                                                        <input type="radio" id="radio4" name="radios" value="Giao hàng thành công" class="status-checkbox form-check-input">Giao hàng thành công
+                                                    </label>
+                                                </div>
+
+												<div class="radio">
+                                                    <label for="radio3" class="form-check-label ">
+                                                        <input type="radio" id="radio5" name="radios" value="Bị hủy" class="status-checkbox form-check-input">Bị hủy
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	document.addEventListener('DOMContentLoaded', function () {
+		
+		main();
+
+		function main() {
+			showChecked();
+			clickCheckbox();
+			updateCategory();
+		}
+
+		// hiển thị checkbox tương ứng trạng thái
+		function showChecked() {
+			var statusCheckbox = document.querySelectorAll('.status-checkbox');
+
+			var statusCurrent = document.getElementById('status-current');
+			var statusCurrentValue = statusCurrent.getAttribute('value');
+
+			if (statusCheckbox != null) {
+				statusCheckbox.forEach((item, index) => {
+					if (item.getAttribute('value') === statusCurrentValue) {
+						item.checked = true;
+					}
+				})
+			}
+		}
+
+		// hiển thị checkbox tương ứng trạng thái
+		function clickCheckbox() {
+			var statusCheckbox = document.querySelectorAll('.status-checkbox');
+
+			var statusCurrent = document.getElementById('status-current');
+
+			if (statusCheckbox != null) {
+				statusCheckbox.forEach((item, index) => {
+					item.addEventListener('click', function () {
+						statusCurrent.value = item.value;
+					})
+				})
+			}
+		}
+
+		// cập nhật
+		function updateCategory() {
+			var formEditBtn = document.querySelector('#form-edit-btn');
+
+			if (formEditBtn != null) {
+				formEditBtn.addEventListener('click', function () {
+					document.querySelector('#form-edit').submit();
+				});
+			}
+		}
+	})
+</script>

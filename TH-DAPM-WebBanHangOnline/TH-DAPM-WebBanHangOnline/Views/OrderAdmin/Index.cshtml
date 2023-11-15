@@ -1,74 +1,24 @@
-﻿@{
+﻿@using Newtonsoft.Json
+@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
 	Layout = "~/Views/Shared/_AdminLayout.cshtml";
 	var listOrder = ViewBag.listOrder;
 	var i = 1;
 }
+@model CategoryViewModel
 
-<!-- Animated -->
-<div class="animated fadeIn">
-	<!-- Widgets  -->
-	<div class="row">
-		<div class="col-lg-4 col-md-6">
-			<div class="card">
-				<div class="card-body">
-					<div class="stat-widget-five">
-						<div class="stat-icon dib flat-color-1">
-							<i class="pe-7s-cart"></i>
-						</div>
-						<div class="stat-content">
-							<div class="text-left dib">
-								<div class="stat-text"><span class="count">@ViewBag.countProduct</span></div>
-								<div class="stat-heading">Sản phẩm</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-lg-4 col-md-6">
-			<div class="card">
-				<div class="card-body">
-					<div class="stat-widget-five">
-						<div class="stat-icon dib flat-color-2">
-							<i class="menu-icon fa fa-truck"></i>
-						</div>
-						<div class="stat-content">
-							<div class="text-left dib">
-								<div class="stat-text"><span class="count">@ViewBag.countOrder</span></div>
-								<div class="stat-heading">Đơn hàng</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-lg-4 col-md-6">
-			<div class="card">
-				<div class="card-body">
-					<div class="stat-widget-five">
-						<div class="stat-icon dib flat-color-4">
-							<i class="pe-7s-users"></i>
-						</div>
-						<div class="stat-content">
-							<div class="text-left dib">
-								<div class="stat-text"><span class="count">@ViewBag.countCustomer</span></div>
-								<div class="stat-heading">Khách hàng</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /Widgets -->
-	<!--  Traffic  -->
-	<div class="row">
-		<div class="col-lg-12">
-			<div class="card">
+<div>
+	<!-- Start: BreadCrumbsPartial -->
+	@Html.Partial("_BreadCrumbsPartial")
+	<!-- End: BreadCrumbsPartial -->
+	<!-- Render -->
+	<div class="animated fadeIn">
+		<div class="row">
+			<!-- Danh sách -->
+			<div class="col-lg-12">
+				<div class="card">
 					<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
-						<b>Đơn hàng tháng này</b>
+						<b>Danh đơn hàng</b>
 
 						<!-- Tìm kiếm -->
 						<form class="search-form" style="margin: 0">
@@ -147,8 +97,9 @@
 						</table>
 					</div> <!-- /.table-stats -->
 				</div>
-		</div><!-- /# column -->
+			</div>
+		</div>
 	</div>
-	<!--  /Traffic -->
-	<div class="clearfix"></div>
 </div>
+
+<script src="~/admin/assets/js/order.js"></script>

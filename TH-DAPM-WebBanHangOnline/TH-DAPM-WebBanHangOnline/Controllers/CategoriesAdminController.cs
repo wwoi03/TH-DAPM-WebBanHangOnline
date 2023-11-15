@@ -23,10 +23,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
             // lấy danh sách loại sản phẩm
             ViewBag.listCategory = dBHelper.GetCategories();
-            CategoryViewModel categoryViewModel = new CategoryViewModel()
-            {
-                CategoryId = 1,
-            };
+
             return View();
         }
 
@@ -47,8 +44,6 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                 Category category = categoryViewModel.ConvertClassModel();
 
                 dBHelper.CreateCategory(category);
-
-                return RedirectToAction("Index");
             }
 
             return PartialView("Create", categoryViewModel);

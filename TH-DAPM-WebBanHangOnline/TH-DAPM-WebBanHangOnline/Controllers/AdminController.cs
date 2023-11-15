@@ -16,6 +16,14 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
         public IActionResult Dashboard()
         {
+            ViewBag.countProduct = dbHelper.getProducts().Count;
+
+            ViewBag.countOrder = dbHelper.GetListOrder().Count;
+
+            ViewBag.countCustomer = dbHelper.GetListCustomer().Count;
+
+            ViewBag.listOrder = dbHelper.GetListOrderByCurrentDay();
+
             return View();
         }
 
@@ -56,6 +64,13 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
                 ViewBag.messageError = "Tên đăng nhập hoặc mật khẩu không chính xác!";
             }
             return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Login");
         }
     }
 }

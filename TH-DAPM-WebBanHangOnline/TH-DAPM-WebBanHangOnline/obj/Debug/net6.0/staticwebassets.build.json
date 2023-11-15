@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3rSGizo3qetlPWElf0Ys74BuHCTs2kk+oOkwL6xEw58=",
+  "Hash": "KPih0yHE/SWs12pmj+OvAx5k2Q3dJUmjAKQaxzKk27E=",
   "Source": "TH-DAPM-WebBanHangOnline",
   "BasePath": "_content/TH-DAPM-WebBanHangOnline",
   "Mode": "Default",
@@ -882,6 +882,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\order.js",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "admin/assets/js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\order.js"
     },
     {
       "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\vmap.sampledata.js",

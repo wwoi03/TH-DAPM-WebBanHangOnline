@@ -211,5 +211,47 @@ namespace TH_DAPM_WebBanHangOnline.Models
         {
             return dbContext.AdminUsers.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
         }
+
+        // lấy danh sách khách hàng
+        public List<Customer> GetListCustomer()
+        {
+            return dbContext.Customers.ToList();
+        }
+
+        // lấy danh sách đơn hàng
+        public List<Order> GetListOrder()
+        {
+            return dbContext.Orders.Include(item => item.Customer).OrderByDescending(item => item.OrderId).ToList();
+        }
+
+        // lấy danh sách đơn hàng
+        public List<Order> GetListOrderByCurrentDay()
+        {
+            DateTime currentDate = DateTime.Now;
+            int currentMonth = currentDate.Month;
+            int currentYear = currentDate.Year;
+
+            return dbContext.Orders
+                .Include(item => item.Customer)
+                .Where(item => item.OrderDay.Month == currentMonth && item.OrderDay.Year == currentYear)
+                .OrderByDescending(item => item.OrderId)
+                .ToList();
+        }
+
+        // lấy đơn hàng
+        public Order GetOrderById(int orderId)
+        {
+            return dbContext.Orders.Include(item => item.Customer).FirstOrDefault(item => item.OrderId == orderId);
+        }
+
+        // cập nhật đơn hàn
+        public void UpdateStatusOrder(int orderId, string status)
+        {
+            Order order = GetOrderById(orderId);
+            order.Status = status;
+
+            dbContext.Update(order);
+            dbContext.SaveChanges();
+        }
     }
 }

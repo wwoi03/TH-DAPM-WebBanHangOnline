@@ -1,0 +1,113 @@
+﻿@using Newtonsoft.Json
+@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	var orderDetails = ViewBag.orderDetails;
+}
+@model CategoryViewModel
+
+<div>
+	<!-- Start: BreadCrumbsPartial -->
+	@Html.Partial("_BreadCrumbsPartial")
+	<!-- End: BreadCrumbsPartial -->
+	<!-- Render -->
+	<div class="animated fadeIn">
+		<div class="row">
+			<!-- Danh sách -->
+			<div class="col-lg-12">
+				<div class="form-edit-container">
+					<div class="card">
+						<div id="form-edit" asp-controller="CategoriesAdmin" asp-action="Edit" method="post">
+							<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+								<b>@ViewBag.titleAction</b>
+
+								<!-- Chỉnh sửa -->
+								<a asp-controller="OrderAdmin" asp-action="Edit" asp-route-orderId="@orderDetails[0].OrderId" id="form-edit-btn" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+									<i class="fa fa-save"></i>
+									&nbsp;Sửa
+								</a>
+							</div>
+
+							<!-- Form nhập -->
+							<div class="card-body card-block">
+								<form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tên người nhận</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.RecipientName</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Số điện thoại</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.Phone</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Địa chỉ giao hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.AddressDeliverry</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+                                        <div class="col col-md-3"><label class=" form-control-label">Sản phẩm</label></div>
+                                        <div class="col col-md-9">
+											@foreach (var item in orderDetails)
+											{
+												<div>
+													<label class="form-check-label ">
+														@item.Product.Name - (x@(item.Quantity)) - $@item.Total
+													</label>
+												</div>
+											}
+                                        </div>
+                                    </div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Phí giao hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.FeeShipping</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tổng phụ</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.SubTotal</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tổng tiền</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">$@orderDetails[0].Order.Total</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Ngày đặt hàng</label></div>
+										<div class="col-12 col-md-9">
+											<p class="form-control-static">@orderDetails[0].Order.OrderDay.ToString("dd/MM/yyyy")</p>
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col col-md-3"><label class=" form-control-label">Tình trạng đơn hàng</label></div>
+										<div class="col-12 col-md-9">
+											<strong class="form-control-static">@orderDetails[0].Order.Status</strong>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="~/admin/assets/js/order.js"></script>
