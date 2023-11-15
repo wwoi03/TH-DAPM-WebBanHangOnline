@@ -1,38 +1,79 @@
 ﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
 @model ProductsViewModel
+@{
+	Layout = "_AdminLayout";
+	var listtype = ViewBag.ListCate;
+	var lsitProdcer = ViewBag.ListProducer;
+}
+
+<div>
+	@Html.Partial("_BreadCrumbsPartial")
+	
+		<div class="animated fadeIn">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="card">
+					<form id="form-edit" asp-controller="ProducerAdmin" asp-action="Create" method="post" enctype="multipart/form-data">>
+							<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+								<b>@ViewBag.titleAction</b>
+
+								<!-- Lưu -->
+								<input id="form-edit-btn" type="submit" value="Lưu" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
 
 
 
-<div class="form-edit-container">
-	<div class="card">
-		<form id="form-edit" asp-controller="ProducerAdmin" asp-action="Create" method="post">
-			<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
-				<b>@ViewBag.titleAction</b>
+							</div>
 
-				<!-- Lưu -->
-				<input id="form-edit-btn" type="submit" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+							<!-- Form nhập -->
+							<div class="card-body">
+								<div class="form-group">
+									<label for="cc-payment" class="control-label mb-1">Tên loại sản phẩm</label>
+									<input asp-for="Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập tên nhà sản xuất">
+									<span class="text-danger" asp-validation-for="Name"></span>
+
+									<label for="cc-payment" class="control-label mb-1">Số Điện Thoại</label>
+									<input asp-for="Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập số điện thoại">
+									<span class="text-danger" asp-validation-for="Name"></span>
+
+									<label for="cc-payment" class="control-label mb-1">Địa Chỉ</label>
+									<input asp-for="Description" id="cc-payment" type="text" class="form-control" placeholder="Nhập địa chỉ">
+									<span class="text-danger" asp-validation-for="Description"></span>
+
+									<label for="cc-payment" class="control-label mb-1">Gía</label>
+								<input asp-for="Price" id="cc-payment" type="text" class="form-control" placeholder="Nhập địa chỉ">
+								<span class="text-danger" asp-validation-for="Price"></span>
+
+								<label for="cc-payment" class="control-label mb-1">Tên Loại</label>							
+								<select asp-for="CategoryId" class="form-control" required>
+									@foreach (var type in listtype)
+									{
+										<option value="@type.CategoryId">@type.Name</option>
+									}
+								</select>
 
 
-
-			</div>
-
-			<!-- Form nhập -->
-			<div class="card-body">
-				<div class="form-group">
-					<label for="cc-payment" class="control-label mb-1">Tên loại sản phẩm</label>
-					<input asp-for="Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập tên nhà sản xuất">
-					<span class="text-danger" asp-validation-for="Name"></span>
-
-					<label for="cc-payment" class="control-label mb-1">Số Điện Thoại</label>
-					<input asp-for="Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập số điện thoại">
-					<span class="text-danger" asp-validation-for="Name"></span>
-
-					<label for="cc-payment" class="control-label mb-1">Địa Chỉ</label>
-					<input asp-for="Description" id="cc-payment" type="text" class="form-control" placeholder="Nhập địa chỉ">
-					<span class="text-danger" asp-validation-for="Description"></span>
+								<label for="cc-payment" class="control-label mb-1">Tên Công Ty</label>
+								<select asp-for="ProducerId" class="form-control" required>
+									@foreach (var type in lsitProdcer)
+									{
+										<option value="@type.ProducerId">@type.Name</option>
+									}
+								</select>
+								</div>
+							<label for="cc-payment" class="control-label mb-1">Ảnh</label>
+							<input type="file" 10="inputClient CompanyFile" accept="image/" asp-for="Image"> <br />
+							<span asp-validation-for-Model. ImageFile" class="text-danger"></span>
+							<ing id-previewImage" style="display: none; width: 300px; height: 300px; border: 1px solid 4C9ECEF alt" />
+							</div>
+						</form>
+					</div>
 				</div>
-
 			</div>
-		</form>
-	</div>
-</div>
+			
+			
+			</div>
+			</div>
+		
+	
+	
+

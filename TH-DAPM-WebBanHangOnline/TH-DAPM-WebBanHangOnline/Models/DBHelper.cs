@@ -178,6 +178,12 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return comments;
         }
 
+        // tạo sản phẩm
+        public void CreatePro(Product product)
+        {
+            dbContext.Products.Add(product);
+            dbContext.SaveChanges();
+        }
         // thêm bình luộn
         public void AddComment(Comment comment)
         {

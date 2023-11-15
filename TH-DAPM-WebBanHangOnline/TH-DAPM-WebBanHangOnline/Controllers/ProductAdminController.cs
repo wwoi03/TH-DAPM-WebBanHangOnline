@@ -27,6 +27,8 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 					Image = item.Image,
 					CategoryName = item.Category.Name,
 					ProducerName = item.Producer.Name,
+					ProducerId = item.Producer.ProducerId,
+					CategoryId = item.Category.CategoryId
 				});
 				ViewBag.NotificationMessage = "Thành công!";
 				return View();
@@ -52,20 +54,24 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 			}
 
 			[HttpPost]
-			public IActionResult EditProducer(ProducerViewModel producerView)
+			public IActionResult EditProducer(ProductsViewModel producerView)
 			{
 				ModelState.Remove("ProducerId");
 				if (ModelState.IsValid)
 				{
-					Producer producer = new Producer
-					{
-						ProducerId = producerView.ProducerId,
-						Phone = producerView.Phone,
-						Name = producerView.Name,
-						Address = producerView.Address,
-					};
+					//Product producer = new Product
+					//{
 
-					dbHelper.UpdateProducer(producer);
+					//	ProductId = productsView.ProductId,
+					//	Name = productsView.Name,
+					//	Price = productsView.Price,
+					//	Description = productsView.Description,
+					//	Image = productsView.Image,
+					//	CategoryId = productsView.CategoryId,
+					//	ProducerId = productsView.ProducerId,
+					//};
+
+					//dbHelper.UpdateProducer(producer);
 					return RedirectToAction("Index");
 				}
 
@@ -79,20 +85,26 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 			public IActionResult Create()
 			{
 				ViewBag.titleAction = "Tạo";
+			ViewBag.ListCate = dbHelper.GetCategories();
+			ViewBag.ListProducer = dbHelper.GetProducers();
 				return PartialView("Create");
 			}
 			[HttpPost]
-			public IActionResult Create(ProducerViewModel producerView)
+			public IActionResult Create(ProductsViewModel productsView)
 			{
 
-				Producer producer = new Producer
+				Product product = new Product
 				{
 
-					Phone = producerView.Phone,
-					Name = producerView.Name,
-					Address = producerView.Address,
+					ProductId = productsView.ProductId,
+					Name = productsView.Name,
+					Price = productsView.Price,
+					Description = productsView.Description,
+					Image = productsView.Image,
+					CategoryId = productsView.CategoryId,
+					ProducerId = productsView.ProducerId,
 				};
-				dbHelper.CreateProducer(producer);
+				dbHelper.CreatePro(product);
 				return RedirectToAction("Index");
 			}
 

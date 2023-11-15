@@ -13,10 +13,10 @@
 	<div class="animated fadeIn">
 		<div class="row">
 			<!-- Danh sách -->
-			<div class="col-lg-9">
+			<div class="col-lg-12">
 				<div class="card">
 					<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
-						<b>Danh Sách Nhà Sản Xuất</b>
+						<b>Danh sách sản phẩm</b>
 
 						<!-- Tìm kiếm -->
 						<form class="search-form">
@@ -28,10 +28,10 @@
 						</form>
 
 						<!-- Thêm -->
-						<button onclick="Create()" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+						<a asp-controller="ProductAdmin" asp-action="Create" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
 							<i class="fa fa-info-circle"></i>
 							&nbsp;Thêm
-						</button>
+						</a>
 					</div>
 
 					<div class="table-stats order-table ov-h" style="width: 100%; overflow-x: scroll">
@@ -94,8 +94,7 @@
 					</div> <!-- /.table-stats -->
 				</div>
 			</div>
-			<div class="col-lg-3" id="Open-Form">
-			</div>
+			
 			<!-- Form -->
 			@* 	<div >
 			<!-- Thêm -->
@@ -172,5 +171,5 @@
 		</div>
 	</div>
 </div>
-<script src="/admin/assets/js/Products.js"></script>
+
 
