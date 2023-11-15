@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KPih0yHE/SWs12pmj+OvAx5k2Q3dJUmjAKQaxzKk27E=",
+  "Hash": "npVei/dAwuiBIJvKyXcy1s/at2TAYFcgWxcCarN0SVM=",
   "Source": "TH-DAPM-WebBanHangOnline",
   "BasePath": "_content/TH-DAPM-WebBanHangOnline",
   "Mode": "Default",
@@ -901,6 +901,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\order.js"
     },
     {
+      "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\Producer.js",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "admin/assets/js/Producer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\Producer.js"
+    },
+    {
       "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\vmap.sampledata.js",
       "SourceId": "TH-DAPM-WebBanHangOnline",
       "SourceType": "Discovered",
@@ -1292,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\64514fff-b0fb-4e34-9a19-889a54d561e5.jpg",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "img/64514fff-b0fb-4e34-9a19-889a54d561e5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\64514fff-b0fb-4e34-9a19-889a54d561e5.jpg"
+    },
+    {
       "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\aokhoac1.jpg",
       "SourceId": "TH-DAPM-WebBanHangOnline",
       "SourceType": "Discovered",
@@ -1511,6 +1545,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cat-6.jpg"
+    },
+    {
+      "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\d911379a-e440-4d7c-96b0-55f8c362f1d6.jpg",
+      "SourceId": "TH-DAPM-WebBanHangOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\",
+      "BasePath": "_content/TH-DAPM-WebBanHangOnline",
+      "RelativePath": "img/d911379a-e440-4d7c-96b0-55f8c362f1d6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\d911379a-e440-4d7c-96b0-55f8c362f1d6.jpg"
     },
     {
       "Identity": "C:\\Huflit_Study_Material\\Exercises\\3rd_Year_Exercises\\DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\img\\offer-1.png",

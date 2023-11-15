@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0FkbWluXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CategoriesAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0FkbWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/CategoriesAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -81,6 +85,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/OrderCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDdXN0b21lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProducerAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJBZG1pblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProducerAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProducerAdmin/ViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJBZG1pblxWaWV3RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Huflit_Study_Material/Exercises/3rd_Year_Exercises/DAPM/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/TH-DAPM-WebBanHangOnline/Views/ProductAdmin/Create.cshtml]

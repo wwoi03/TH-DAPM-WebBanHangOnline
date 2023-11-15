@@ -1,0 +1,23 @@
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@model CategoryViewModel
+
+<div class="card">
+	<form id="form-add" asp-controller="CategoriesAdmin" asp-action="Create" method="post" enctype="multipart/form-data">
+		<div class="card-header" >
+			<b>Chi tiết sản phẩm</b>
+		</div>
+
+		<!-- Form nhập -->
+		<div class="card-body">
+			<div class="form-group">
+				<label for="cc-payment" class="control-label mb-1">ID</label>
+				<input readonly value="@Model.CategoryId" id="category-name" type="text" class="form-control" placeholder="Nhập tên loại sản phẩm">
+			</div>
+
+			<div class="form-group">
+				<label for="cc-payment" class="control-label mb-1">Tên loại sản phẩm</label>
+				<input readonly value="@Model.Name" id="category-name" type="text" class="form-control" placeholder="Nhập tên loại sản phẩm">
+			</div>
+		</div>
+	</form>
+</div>

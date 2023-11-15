@@ -48,5 +48,12 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 
             return PartialView("Create", categoryViewModel);
         }
+
+        /*public IActionResult Details(int c)
+        {
+            
+
+            return PartialView("Create", categoryViewModel);
+        }*/
     }
 }
