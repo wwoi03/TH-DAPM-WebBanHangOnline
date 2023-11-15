@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
 
 namespace TH_DAPM_WebBanHangOnline.Models
@@ -178,6 +178,12 @@ namespace TH_DAPM_WebBanHangOnline.Models
             return comments;
         }
 
+        // tạo sản phẩm
+        public void CreatePro(Product product)
+        {
+            dbContext.Products.Add(product);
+            dbContext.SaveChanges();
+        }
         // thêm bình luộn
         public void AddComment(Comment comment)
         {
@@ -210,6 +216,39 @@ namespace TH_DAPM_WebBanHangOnline.Models
         public AdminUser LoginAdmin(string email, string password)
         {
             return dbContext.AdminUsers.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+        }
+
+
+
+        //-----------------------------------------------------NHÀ SẢN XUẤT-----------------------------------------
+        //lấy danh sách nhà sản xuất
+        public List<Producer> GetProducers()
+        {
+            return dbContext.Producers.ToList();
+        }
+
+        //lấy nhà sản xuất theo id
+        public Producer GetProducerById(int id)
+        {
+            return dbContext.Producers.FirstOrDefault(p => p.ProducerId==id);
+        }
+        //update nhà sản xuất
+        public void UpdateProducer(Producer producer)
+        {
+            dbContext.Update(producer);
+            dbContext.SaveChanges();
+        }
+        //tạo 
+        public void CreateProducer(Producer producer)
+        {
+            dbContext.Producers.Add(producer);
+            dbContext.SaveChanges();
+        }
+
+        public void DeleteProducer(int id)
+        {
+            dbContext.Producers.Remove(GetProducerById(id));
+            dbContext.SaveChanges();
         }
 
         // lấy danh sách khách hàng

@@ -77,6 +77,14 @@
       "PackagePath": "staticwebassets\\admin\\assets\\fonts\\icomoon\\index.html"
     },
     {
+      "Id": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\Producer.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\Producer.js"
+    },
+    {
+      "Id": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\Products.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\Products.js"
+    },
+    {
       "Id": "D:\\DaiHoc\\NAM3\\TH_DAPM\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\TH-DAPM-WebBanHangOnline\\wwwroot\\admin\\assets\\js\\category.js",
       "PackagePath": "staticwebassets\\admin\\assets\\js\\category.js"
     },

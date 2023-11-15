@@ -1,1 +1,175 @@
-﻿
+﻿@using TH_DAPM_WebBanHangOnline.Models.ViewModel
+@{
+	Layout = "_AdminLayout";
+	var listproducer = ViewData["ListPro"] as IEnumerable<ProductsViewModel>;
+}
+
+<div>
+
+	<!-- Start: BreadCrumbsPartial -->
+	@Html.Partial("_BreadCrumbsPartial")
+	<!-- End: BreadCrumbsPartial -->
+	<!-- Render -->
+	<div class="animated fadeIn">
+		<div class="row">
+			<!-- Danh sách -->
+			<div class="col-lg-12">
+				<div class="card">
+					<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+						<b>Danh sách sản phẩm</b>
+
+						<!-- Tìm kiếm -->
+						<form class="search-form">
+							<input class="search-input" placeholder="Nhập nhà sản xuất">
+
+							<a class="search-btn">
+								<i class="fa fa-search"></i>
+							</a>
+						</form>
+
+						<!-- Thêm -->
+						<a asp-controller="ProductAdmin" asp-action="Create" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+							<i class="fa fa-info-circle"></i>
+							&nbsp;Thêm
+						</a>
+					</div>
+
+					<div class="table-stats order-table ov-h" style="width: 100%; overflow-x: scroll">
+						<!-- Hiển thị danh sách -->
+						<table class="table" style="overflow-x: scroll">
+
+							<!-- Tiêu đề -->
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Sản Phẩm</th>
+									<th>Nhà Sản Xuất</th>
+									<th>Mô tả</th>
+									<th>Loại</th>
+									<th>Ảnh</th>
+									
+									<th>Hành Động</th>
+								</tr>
+							</thead>
+
+							<!-- Render -->
+							<tbody>
+								@foreach (var item in listproducer)
+								{
+									<tr>
+										<td>@item.ProductId</td>
+										<td>@item.Name</td>
+										<td>@item.ProducerName</td>
+										<td>@item.Description</td>
+										
+										<td>@item.CategoryName</td>
+										<td><img width:20px height:50px src="/img/@item.Image" /></td>
+
+										@*<td>
+									<div class="round-img">
+									<a href="#"><img class="rounded-circle" src="images/avatar/1.jpg" style="margin: 0px;" alt=""></a>
+									</div>
+									</td>*@
+
+
+
+										<td style="color: #fff !important; white-space: nowrap">
+											<button  class="btn btn-sm color-white btn-size" style="background: #17A2B8 !important">
+												<i class="fa fa-info-circle"></i>
+												&nbsp;Xem
+											</button>
+											<button onclick="ViewEdit(@item.ProductId)" class="btn btn-sm color-white btn-size" style="background: #00C292 !important">
+												<i class="fa fa-edit"></i>
+												&nbsp;Sửa
+											</button>
+											<a asp-controller="ProducerAdmin" asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-sm color-white btn-size" style="background: #FB9678 !important">
+												<i class="fa fa-trash-o"></i>
+												&nbsp;Xóa
+											</a>
+										</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div> <!-- /.table-stats -->
+				</div>
+			</div>
+			
+			<!-- Form -->
+			@* 	<div >
+			<!-- Thêm -->
+			@if (Model == null)
+			{
+			<div class="form-add-container">
+			<div class="card">
+			<form id="form-add" asp-controller="CategoriesAdmin" asp-action="Create" method="post" enctype="multipart/form-data">
+			<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+			<b>Thêm loại sản phẩm</b>
+
+			<!-- Lưu -->
+			<a id="form-add-btn" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+			<i class="fa fa-save"></i>
+			&nbsp;Lưu
+			</a>
+			</div>
+
+			<!-- Form nhập -->
+			<div class="card-body">
+			<div class="form-group">
+			<label for="cc-payment" class="control-label mb-1">Tên loại sản phẩm</label>
+			<input asp-for="Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập tên loại sản phẩm">
+			<span class="text-danger" asp-validation-for="Name"></span>
+			</div>
+
+			<div class="form-group">
+			<label for="cc-number" class="control-label mb-1">Icon</label>
+			<br />
+			<input id="imageFile" type="file" accept="image/*" asp-for="">
+			<br />
+			<span class="text-danger" asp-validation-for=""></span>
+			</div>
+			</div>
+			</form>
+			</div>
+			</div>
+			}
+
+			<!-- Sửa - Chi tiết -->
+			@if (Model != null)
+			{
+			<div class="form-edit-container">
+			<div class="card">
+			<form id="form-edit" asp-controller="CategoriesAdmin" asp-action="Edit" method="post">
+			<div class="card-header" style="display: flex; align-items: center; justify-content: space-between">
+			<b>@ViewBag.titleAction</b>
+
+			<!-- Lưu -->
+			<a id="form-edit-btn" class="btn btn-sm color-white btn-size" style="background: #007BFF !important">
+			<i class="fa fa-save"></i>
+			&nbsp;Lưu
+			</a>
+			</div>
+
+			<!-- Form nhập -->
+			<div class="card-body">
+			<div class="form-group">
+			<label for="cc-payment" class="control-label mb-1">ID</label>
+			<input type="text" class="form-control" readonly value="" asp-for="CategoryId" value="@Model.CategoryId">
+			</div>
+
+			<div class="form-group">
+			<label for="cc-payment" class="control-label mb-1">Tên loại sản phẩm</label>
+			<input asp-for="Name" value="@Model.Name" id="cc-payment" type="text" class="form-control" placeholder="Nhập tên loại sản phẩm">
+			<span class="text-danger" asp-validation-for="Name"></span>
+			</div>
+			</div>
+			</form>
+			</div>
+			</div>
+			}
+			</div> *@
+		</div>
+	</div>
+</div>
+
+
