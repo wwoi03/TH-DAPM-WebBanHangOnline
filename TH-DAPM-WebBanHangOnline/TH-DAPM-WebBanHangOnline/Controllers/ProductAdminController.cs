@@ -2,6 +2,7 @@
 using TH_DAPM_WebBanHangOnline.Models.ClassModel;
 using TH_DAPM_WebBanHangOnline.Models.ViewModel;
 using TH_DAPM_WebBanHangOnline.Models;
+using Microsoft.Extensions.Hosting;
 
 namespace TH_DAPM_WebBanHangOnline.Controllers
 {
@@ -92,10 +93,9 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 			[HttpPost]
 			public IActionResult Create(ProductsViewModel productsView)
 			{
-
-				Product product = new Product
+			    			
+			Product product = new Product
 				{
-
 					ProductId = productsView.ProductId,
 					Name = productsView.Name,
 					Price = productsView.Price,
@@ -112,7 +112,7 @@ namespace TH_DAPM_WebBanHangOnline.Controllers
 			public IActionResult Delete(int id)
 			{
 
-				dbHelper.DeleteProducer(id);
+			dbHelper.DeletePro (id);
 
 				return RedirectToAction("Index");
 			}

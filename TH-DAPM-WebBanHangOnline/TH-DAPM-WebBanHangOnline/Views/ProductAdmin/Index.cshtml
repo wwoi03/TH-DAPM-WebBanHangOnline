@@ -78,11 +78,11 @@
 												<i class="fa fa-info-circle"></i>
 												&nbsp;Xem
 											</button>
-											<button onclick="ViewEdit(@item.ProductId)" class="btn btn-sm color-white btn-size" style="background: #00C292 !important">
+											<button class="btn btn-sm color-white btn-size" style="background: #00C292 !important">
 												<i class="fa fa-edit"></i>
 												&nbsp;Sửa
 											</button>
-											<a asp-controller="ProducerAdmin" asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-sm color-white btn-size" style="background: #FB9678 !important">
+											<a asp-controller="ProductAdmin" asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-sm color-white btn-size" style="background: #FB9678 !important">
 												<i class="fa fa-trash-o"></i>
 												&nbsp;Xóa
 											</a>

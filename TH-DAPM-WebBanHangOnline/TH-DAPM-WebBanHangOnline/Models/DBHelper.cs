@@ -151,7 +151,7 @@ namespace TH_DAPM_WebBanHangOnline.Models
         //lấy sản phẩm thông qua id
         public Product getProductById(int id)
         {
-            Product product = new Product();
+            Product product = dbContext.Products.FirstOrDefault(p=>p.ProductId==id);
             return product;
         }
 
@@ -182,6 +182,12 @@ namespace TH_DAPM_WebBanHangOnline.Models
         public void CreatePro(Product product)
         {
             dbContext.Products.Add(product);
+            dbContext.SaveChanges();
+        }
+        //xóa pro
+        public void DeletePro(int id)
+        {
+            dbContext.Products .Remove(getProductById(id));
             dbContext.SaveChanges();
         }
         // thêm bình luộn
